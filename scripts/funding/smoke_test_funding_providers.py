@@ -19,9 +19,6 @@ from typing import Any, Callable
 import requests
 from dotenv import load_dotenv
 
-from funding.adapters import ADAPTERS
-
-
 ROOT = Path(__file__).resolve().parents[2]
 OUTPUT = ROOT / "data" / "funding" / "provider-smoke-v1.json"
 DOMAINS = ("airwallex.com", "acuitymd.com")
@@ -130,6 +127,14 @@ def company_enrich(domain: str) -> dict[str, Any]:
     )
 
 
+def fundable(domain: str) -> dict[str, Any]:
+    return request(
+        "GET", "https://www.tryfundable.ai/api/v1/company",
+        headers={"Authorization": f"Bearer {os.environ['FUNDABLE_API_KEY']}", "Accept": "application/json"},
+        params={"domain": domain},
+    )
+
+
 PROVIDERS: dict[str, tuple[tuple[str, ...], Callable[[str], dict[str, Any]]]] = {
     "fiber": (("FIBER_API_KEY",), fiber),
     "predictleads": (("PREDICT_LEADS_API_KEY", "PREDICT_LEADS_API_TOKEN"), predictleads),
@@ -138,14 +143,8 @@ PROVIDERS: dict[str, tuple[tuple[str, ...], Callable[[str], dict[str, Any]]]] = 
     "ocean": (("OCEAN_API_KEY",), ocean),
     "explorium": (("EXPLORIUM_API_KEY",), explorium),
     "company-enrich": (("COMPANY_ENRICH_API_KEY",), company_enrich),
+    "fundable": (("FUNDABLE_API_KEY",), fundable),
 }
-PROVIDERS.update({
-    slug: (
-        adapter.REQUIRED_ENV,
-        lambda domain, current=adapter: current.request(domain, request, os.environ),
-    )
-    for slug, adapter in ADAPTERS.items()
-})
 
 
 def funding_paths(value: Any, path: str = "$") -> list[str]:
