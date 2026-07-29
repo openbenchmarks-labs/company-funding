@@ -17,7 +17,7 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[2]
-INPUT = ROOT / "data" / "funding" / "company-funding-benchmark-inputs-v1.csv"
+INPUT = ROOT / "data" / "funding" / "company-funding-inputs-v1.csv"
 RAW = ROOT / "data" / "funding" / "provider-runs-v1" / "raw"
 OUTPUT = ROOT / "data" / "funding" / "provider-runs-v1" / "stage-dry-run.json"
 

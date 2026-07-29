@@ -19,6 +19,8 @@ from typing import Any, Callable
 import requests
 from dotenv import load_dotenv
 
+from funding.adapters import ADAPTERS
+
 
 ROOT = Path(__file__).resolve().parents[2]
 OUTPUT = ROOT / "data" / "funding" / "provider-smoke-v1.json"
@@ -137,6 +139,13 @@ PROVIDERS: dict[str, tuple[tuple[str, ...], Callable[[str], dict[str, Any]]]] = 
     "explorium": (("EXPLORIUM_API_KEY",), explorium),
     "company-enrich": (("COMPANY_ENRICH_API_KEY",), company_enrich),
 }
+PROVIDERS.update({
+    slug: (
+        adapter.REQUIRED_ENV,
+        lambda domain, current=adapter: current.request(domain, request, os.environ),
+    )
+    for slug, adapter in ADAPTERS.items()
+})
 
 
 def funding_paths(value: Any, path: str = "$") -> list[str]:

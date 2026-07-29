@@ -23,6 +23,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
+from funding.adapters import ADAPTERS
 from smoke_test_funding_providers import (
     DOMAINS as SMOKE_DOMAINS,
     OUTPUT as SMOKE_OUTPUT,
@@ -39,8 +40,11 @@ RAW_DIR = RUN_DIR / "raw"
 SUMMARY = RUN_DIR / "summary.json"
 MANIFEST = RUN_DIR / "manifest.json"
 
-# Keep the known documented Ocean limit safely below 60 requests/minute.
-MIN_START_INTERVAL_SECONDS = {"ocean": 1.1}
+# Keep documented provider limits safely below their requests-per-minute caps.
+MIN_START_INTERVAL_SECONDS = {
+    "ocean": 1.1,
+    **{slug: adapter.MIN_START_INTERVAL_SECONDS for slug, adapter in ADAPTERS.items()},
+}
 WRITE_LOCK = threading.Lock()
 
 
@@ -111,6 +115,11 @@ def status_for(provider: str, raw: dict[str, Any]) -> tuple[str, str | None]:
         return "not_found", "no funding enrichment"
     if provider == "company-enrich" and not response.get("id"):
         return "not_found", "no company"
+    adapter = ADAPTERS.get(provider)
+    if adapter:
+        reason = adapter.not_found_reason(response)
+        if reason:
+            return "not_found", reason
     return "ok", None
 
 
@@ -166,6 +175,9 @@ def normalize(provider: str, raw: dict[str, Any]) -> dict[str, Any]:
         result["latest_date"] = result["latest_date"] or item.get("funding_date")
         result["total_raised"] = item.get("total_funding")
         return result
+    adapter = ADAPTERS.get(provider)
+    if adapter:
+        return adapter.normalize(response)
     raise KeyError(provider)
 
 
