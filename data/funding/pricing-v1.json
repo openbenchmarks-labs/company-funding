@@ -195,7 +195,7 @@
     {
       "provider_slug": "firecrawl",
       "endpoint": "POST /v2/agent",
-      "configuration": "model=spark-1-mini · JSON schema · maxCredits capped per run",
+      "configuration": "model=spark-2 · JSON schema · maxCredits capped per run",
       "billing_basis": "Dynamic credits per agent run; observed creditsUsed",
       "observed_usage": 50615,
       "usage_label": "50,615 credits",

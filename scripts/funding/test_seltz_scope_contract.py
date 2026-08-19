@@ -102,6 +102,9 @@ class FirecrawlRequest(unittest.TestCase):
         """The API default is 2,500 per run, which is a runaway across a cohort."""
         self.assertLess(runner.FIRECRAWL_MAX_CREDITS, 2_500)
 
+    def test_model_is_spark_2(self) -> None:
+        self.assertEqual(runner.FIRECRAWL_MODEL, "spark-2")
+
     def test_registered_with_its_own_key(self) -> None:
         self.assertEqual(runner.REQUIRED_ENV["firecrawl"], "FIRECRAWL_API_KEY")
 

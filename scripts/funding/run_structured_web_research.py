@@ -55,7 +55,7 @@ RESPONSES_REASONING_EFFORT = "medium"
 # That default is a per-run ceiling, so across a 300-domain cohort it is a
 # runaway rather than a budget. Set it explicitly and low; the response reports
 # creditsUsed, which is what the pricing row is derived from.
-FIRECRAWL_MODEL = "spark-1-mini"
+FIRECRAWL_MODEL = "spark-2"
 FIRECRAWL_MAX_CREDITS = 1500
 # A 10-case smoke run measured a 136s median, and two runs exceeded the 180s
 # default and were recorded as timeouts that were ours, not the vendor's.
