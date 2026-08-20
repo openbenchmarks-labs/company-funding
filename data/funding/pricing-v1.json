@@ -230,6 +230,19 @@
       "plan_floor": "Not disclosed",
       "pricing_url": "https://seltz.ai",
       "note": "Identical request to the companies-scope row apart from the scope parameter, which is what Seltz searches over: its company corpus against its news corpus."
+    },
+    {
+      "provider_slug": "riveter-enrich",
+      "endpoint": "POST /v1/enrich",
+      "configuration": "prompt + attributes · 6 output columns · single-row calls",
+      "billing_basis": "1 agent-cell credit per output column per company; observed credits_used",
+      "observed_usage": 1800,
+      "usage_label": "1,800 credits",
+      "estimated_usage_cost_usd": 36.0,
+      "rate_label": "$0.02 / credit",
+      "plan_floor": "Enterprise 1, $0.02 per credit",
+      "pricing_url": "https://riveterhq.com/pricing",
+      "note": "Note, on Self-Serve plan the credit price is $0.025 per credit. One agent runs per output column, so the six-field schema bills six credits per company; every one of the 300 rows reported exactly 6.0 credits_used. Typically a configuration like this could be done in 2-3 columns, halving the price. Config generation is not billed."
     }
   ],
   "cost_basis_cases": 300,

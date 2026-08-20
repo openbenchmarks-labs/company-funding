@@ -40,7 +40,7 @@ The other four fields contribute to the separate returned-data coverage metric; 
 | `data/funding/pricing-v1.json` | Dated public entry-tier cost assumptions used for the estimated USD cost display |
 | `scripts/funding/run_funding_benchmark.py` | Credit-safe, resumable provider runner |
 | `scripts/funding/smoke_test_funding_providers.py` | Small contract smoke test for the original endpoint adapters |
-| `scripts/funding/run_structured_web_research.py` | Resumable runner for every natural-language arm: Exa search, Exa Agent, Parallel Task and Responses, Seltz, Firecrawl; raw outputs remain local |
+| `scripts/funding/run_structured_web_research.py` | Resumable runner for every natural-language arm: Exa search, Exa Agent, Parallel Task and Responses, Seltz, Firecrawl, Riveter Enrich; raw outputs remain local |
 | `scripts/funding/run_crustdata_funding_batch.py` | Credit-safe submit/poll runner for Crustdata's 300-company batch enrichment |
 | `scripts/funding/run_zoominfo_funding.py` | Credit-safe, resumable ZoomInfo GTM CLI runner; serial 10-domain requests with a two-second interval |
 | `scripts/funding/score_funding_stage_dry_run.py` | Transparent latest-stage taxonomy and offline scoring report |
@@ -85,7 +85,8 @@ PYTHONPATH=scripts .venv/bin/python scripts/funding/run_structured_web_research.
 question in natural language: `exa` and `exa-instant` (Search API at two search
 types), `exa-agent` (Agent API), `parallel` (Task API) and
 `parallel-responses-medium` (Responses API), `seltz-companies` and `seltz-news`
-(Answer API at two search scopes), and `firecrawl` (Agent API). All of them send
+(Answer API at two search scopes), `firecrawl` (Agent API), and `riveter-enrich`
+(Enrich API). All of them send
 the same instruction and the same output schema, so the endpoint or its one
 varied parameter is the only difference between arms; the contract tests beside
 the runner assert that.
@@ -98,6 +99,12 @@ Firecrawl bills dynamic credits per run and the API defaults to a 2,500-credit
 ceiling per call, which is a runaway across a cohort. The runner sets an
 explicit cap and records the `creditsUsed` each run reports, which is where its
 published cost comes from.
+
+Riveter's Enrich API generates a per-column agent config from the prompt, then
+runs one agent per output column. It bills one credit per agent cell, so the
+six-field schema costs six credits per company regardless of run effort; the
+runner records each run's reported `credits_used`, which is where its published
+cost comes from.
 
 Use `run_crustdata_funding_batch.py submit` then
 `poll` for Crustdata. Crunchbase is deliberately not rerun by a script: it
@@ -130,7 +137,7 @@ The committed snapshot contains the normalized benchmark contract for every prov
 
 ## Providers
 
-Fifteen vendors, measured across nineteen arms: a vendor with more than one
+Sixteen vendors, measured across twenty arms: a vendor with more than one
 endpoint is scored once per endpoint, because those endpoints have different
 accuracy, latency and price. Both boards group the arms by how they produce an
 answer, which is a reading aid rather than a scoring rule. Every arm is asked
@@ -142,6 +149,7 @@ request time.
 - Exa (Agent API)
 - Firecrawl (Agent API)
 - Parallel (Task API)
+- Riveter (Enrich API)
 
 **Web search APIs** query an index and extract the answer from it.
 
