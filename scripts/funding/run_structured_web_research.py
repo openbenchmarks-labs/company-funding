@@ -20,6 +20,7 @@ import argparse
 import csv
 import json
 import os
+import re
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import UTC, datetime
@@ -94,6 +95,25 @@ SELTZ_SYSTEM_PROMPT = (
     + " Amounts are whole major-currency units, never millions or billions. "
     "Use null for any field you cannot verify. Do not infer."
 )
+
+# Riveter's arm is the enrichment product itself (POST /v1/enrich, prompt +
+# attributes): a config generator turns the prompt into per-column agent
+# configs, then one cell agent (LLM + web tool loop) runs per output column.
+# The attributes are the schema's own field names, and the schema rides inside
+# the prompt because the config generator is what pins column formats — the
+# same way the Seltz arms carry the schema inside their system prompt.
+# Single-row calls keep per-case latency honest. Async by design: the POST
+# returns a run id and GET /runs/{id}/result long-polls up to 50s per call
+# (the API maximum) until terminal; config generation + six agent cells per
+# company runs minutes per row, hence the 18-poll (900s) budget.
+RIVETER_API_BASE = os.environ.get("RIVETER_API_BASE", "https://api.riveterhq.com")
+RIVETER_WAIT_SECONDS = 50
+RIVETER_TIMEOUT_S = 90
+# api.riveterhq.com's edge rejects urllib's default "Python-urllib/3.x" UA with
+# an opaque 403 before the API sees the request; identify the runner instead.
+RIVETER_USER_AGENT = "openbenchmarks-company-funding/1.0"
+RIVETER_ENRICH_ATTRIBUTES = tuple(OUTPUT_SCHEMA["properties"])
+RIVETER_ENRICH_POLL_ATTEMPTS = 18
 
 
 def now() -> str:
@@ -435,6 +455,100 @@ def exa_agent(case: dict[str, str], effort: str = EXA_AGENT_EFFORT) -> tuple[dic
     }
 
 
+def riveter_enrich_prompt(case: dict[str, str]) -> str:
+    """The shared instruction plus the shared schema, verbatim, as one prompt."""
+    return (
+        instruction(case)
+        + " The output fields must exactly match this JSON Schema: "
+        + json.dumps(OUTPUT_SCHEMA)
+    )
+
+
+def riveter_enrich_cell_value(cells: Any) -> Any:
+    """First-row cell value of one output column, typed like the shared schema.
+
+    Enrichment cells hold strings (the column format is whatever the config
+    generator pinned), so numeric-looking values are lifted to numbers and the
+    agent's "not found" sentinel maps to null. Anything else stays verbatim.
+    """
+    if not isinstance(cells, list) or not cells or not isinstance(cells[0], dict):
+        return None
+    value = cells[0].get("value")
+    if not isinstance(value, str):
+        return value
+    text = value.strip()
+    # "not found" is the cell agent's sentinel; a literal "null" is the
+    # schema's null coming back as text (cells are strings).
+    if not text or text.lower() in {"not found", "null"}:
+        return None
+    if re.fullmatch(r"-?\d+(\.\d+)?", text.replace(",", "")):
+        number = float(text.replace(",", ""))
+        return int(number) if number == int(number) else number
+    return text
+
+
+def riveter_enrich(case: dict[str, str]) -> tuple[dict[str, Any], dict[str, Any]]:
+    """Riveter enrichment on one row: prompt + attributes, config auto-generated.
+
+    The result is columnar ({header: [cell, ...]}); headers are mapped back to
+    schema fields by slug so the scored shape stays identical to every other
+    arm. Output columns the generator added beyond the schema stay on the raw
+    envelope only.
+    """
+    headers = {
+        "Authorization": f"Bearer {os.environ['RIVETER_API_KEY']}",
+        "Content-Type": "application/json",
+        "User-Agent": RIVETER_USER_AGENT,
+    }
+    payload = {
+        "prompt": riveter_enrich_prompt(case),
+        "attributes": list(RIVETER_ENRICH_ATTRIBUTES),
+        "input": {"Company Name": [case["company_name"]], "Company Domain": [case["company_domain"]]},
+    }
+    body = request_json(f"{RIVETER_API_BASE}/v1/enrich", headers, payload, timeout=RIVETER_TIMEOUT_S)
+    run_id = body.get("id")
+    for _ in range(RIVETER_ENRICH_POLL_ATTEMPTS):
+        status = body.get("status")
+        if status in {"stopped", "failed", "error"}:
+            error = body.get("error") or {}
+            raise ValueError(f"Riveter enrich run {status}: {error.get('message') or 'no error message'}")
+        if status == "success":
+            break
+        if not run_id:
+            raise ValueError(f"Riveter enrich returned no run id (status {status!r})")
+        body = request_json(
+            f"{RIVETER_API_BASE}/v1/runs/{run_id}/result?wait={RIVETER_WAIT_SECONDS}",
+            headers,
+            timeout=RIVETER_TIMEOUT_S,
+        )
+    else:
+        raise TimeoutError(f"Riveter enrich run did not complete within {RIVETER_ENRICH_POLL_ATTEMPTS * RIVETER_WAIT_SECONDS}s")
+    output = body.get("output") or {}
+    if not isinstance(output, dict) or not output:
+        raise ValueError("Riveter enrich returned no columnar output")
+    normalized: dict[str, Any] = {}
+    unmapped: dict[str, Any] = {}
+    for header, cells in output.items():
+        slug = re.sub(r"[^a-z0-9]+", "_", str(header).lower()).strip("_")
+        if slug in {"company_name", "company_domain"}:
+            continue
+        value = riveter_enrich_cell_value(cells)
+        if slug in OUTPUT_SCHEMA["properties"]:
+            normalized[slug] = value
+        else:
+            unmapped[str(header)] = value
+    for field in OUTPUT_SCHEMA["properties"]:
+        normalized.setdefault(field, None)
+    # Credits, run id and unexpected columns stay on the envelope; the scored
+    # schema has to stay identical across every provider on the board.
+    return normalized, {
+        "response": body,
+        "run_id": run_id,
+        "credits_used": body.get("credits_used"),
+        "unmapped_output_columns": unmapped or None,
+    }
+
+
 PROVIDERS = {
     "exa": exa,
     "exa-instant": partial(exa, search_type="instant"),
@@ -442,6 +556,7 @@ PROVIDERS = {
     "parallel": parallel,
     "parallel-responses-medium": parallel_responses,
     "firecrawl": firecrawl,
+    "riveter-enrich": riveter_enrich,
     "seltz-companies": partial(seltz, scope="companies"),
     "seltz-news": partial(seltz, scope="news"),
 }
@@ -450,13 +565,16 @@ REQUIRED_ENV = {
     "parallel": "PARALLEL_API_KEY",
     "parallel-responses-medium": "PARALLEL_API_KEY",
     "firecrawl": "FIRECRAWL_API_KEY",
+    "riveter-enrich": "RIVETER_API_KEY",
     "seltz-companies": "SELTZ_API_KEY", "seltz-news": "SELTZ_API_KEY",
 }
 DEFAULT_CONCURRENCY = {
     "exa": 12, "exa-instant": 12, "parallel": 8, "parallel-responses-medium": 8,
     # Agentic search runs are long and metered; keep these low until a smoke
     # test shows what each vendor tolerates.
-    "exa-agent": 4, "firecrawl": 4, "seltz-companies": 6, "seltz-news": 6,
+    # riveter-enrich fans out to one agent per output column server-side, so it
+    # runs at the lowest concurrency on the board.
+    "exa-agent": 4, "firecrawl": 4, "riveter-enrich": 2, "seltz-companies": 6, "seltz-news": 6,
 }
 
 
