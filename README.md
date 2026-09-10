@@ -84,7 +84,8 @@ PYTHONPATH=scripts .venv/bin/python scripts/funding/run_structured_web_research.
 
 `run_structured_web_research.py` covers every provider that is asked the
 question in natural language: `exa` and `exa-instant` (Search API at two search
-types), `exa-agent` (Agent API), `parallel` (Task API) and
+types), `exa-agent` (Agent API), `tavily-basic` and `tavily-advanced` (Search
+API at the two pinned search depths), `parallel` (Task API) and
 `parallel-responses-medium` (Responses API), `seltz-companies` and `seltz-news`
 (Answer API at two search scopes), and `firecrawl` and `firecrawl-spark-2`
 (Agent API with Spark 1 Mini and Spark 2 respectively). All of them send the
@@ -152,6 +153,8 @@ request time.
 
 - Exa (Search API, deep-reasoning)
 - Exa (Search API, instant)
+- Tavily (Search API, Basic)
+- Tavily (Search API, Advanced)
 - Parallel (Responses API, medium reasoning effort)
 - Seltz (Answer API, companies scope)
 - Seltz (Answer API, news scope)

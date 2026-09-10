@@ -76,6 +76,12 @@ SELTZ_SCOPES = ("companies", "news")
 EXA_DEFAULT_SEARCH_TYPE = "deep-reasoning"
 EXA_SEARCH_TYPES = ("deep-reasoning", "instant")
 
+# Tavily is measured at both supported benchmark search depths.  Keeping the
+# query and answer mode fixed makes the accuracy/cost tradeoff attributable to
+# depth alone; see test_tavily_search_depth_contract.py.
+TAVILY_SEARCH_DEPTHS = ("basic", "advanced")
+TAVILY_MAX_RESULTS = 10
+
 # Exa's Agent API is a third, separate arm: an agent that researches at request
 # time rather than a search call. Priced per request by effort, and the effort
 # MUST be pinned. The default "auto" is metered up to a $5 per-run ceiling, so
@@ -368,6 +374,38 @@ def exa(case: dict[str, str], search_type: str = EXA_DEFAULT_SEARCH_TYPE) -> tup
     return output["content"], {**response, "_request_type": search_type}
 
 
+def tavily_payload(case: dict[str, str], search_depth: str) -> dict[str, Any]:
+    """Request body for one Tavily arm. Search depth is the only arm variable.
+
+    Tavily Search returns its generated answer as text, rather than accepting a
+    JSON schema.  The shared instruction consequently asks for the benchmark
+    shape directly, and ``include_answer`` asks Tavily to synthesize from the
+    returned sources.  Parsing is deliberately strict below: prose is retained
+    as an unparsed result instead of being guessed into a benchmark score.
+    """
+    return {
+        "query": instruction(case) + " Return only a JSON object matching the requested fields.",
+        "search_depth": search_depth,
+        "max_results": TAVILY_MAX_RESULTS,
+        "include_answer": True,
+    }
+
+
+def tavily(case: dict[str, str], search_depth: str = "basic") -> tuple[dict[str, Any], dict[str, Any]]:
+    """Tavily Search at a pinned depth, retaining citations outside the score."""
+    headers = {"Authorization": f"Bearer {os.environ['TAVILY_API_KEY']}", "Content-Type": "application/json"}
+    response = request_json("https://api.tavily.com/search", headers, tavily_payload(case, search_depth))
+    answer = response.get("answer")
+    if not isinstance(answer, str):
+        raise ValueError(f"Tavily {search_depth} returned no answer text")
+    sources = [result.get("url") for result in response.get("results") or [] if isinstance(result, dict) and isinstance(result.get("url"), str)]
+    return parse_json_answer(answer), {
+        "response": response,
+        "search_depth": search_depth,
+        "sources": list(dict.fromkeys(sources)),
+    }
+
+
 def exa_agent_payload(case: dict[str, str], effort: str) -> dict[str, Any]:
     """Request body for the Exa Agent arm.
 
@@ -442,6 +480,8 @@ PROVIDERS = {
     "exa": exa,
     "exa-instant": partial(exa, search_type="instant"),
     "exa-agent": exa_agent,
+    "tavily-basic": partial(tavily, search_depth="basic"),
+    "tavily-advanced": partial(tavily, search_depth="advanced"),
     "parallel": parallel,
     "parallel-responses-medium": parallel_responses,
     "firecrawl": firecrawl,
@@ -451,6 +491,7 @@ PROVIDERS = {
 }
 REQUIRED_ENV = {
     "exa": "EXA_API_KEY", "exa-instant": "EXA_API_KEY", "exa-agent": "EXA_API_KEY",
+    "tavily-basic": "TAVILY_API_KEY", "tavily-advanced": "TAVILY_API_KEY",
     "parallel": "PARALLEL_API_KEY",
     "parallel-responses-medium": "PARALLEL_API_KEY",
     "firecrawl": "FIRECRAWL_API_KEY", "firecrawl-spark-2": "FIRECRAWL_API_KEY",
@@ -458,6 +499,7 @@ REQUIRED_ENV = {
 }
 DEFAULT_CONCURRENCY = {
     "exa": 12, "exa-instant": 12, "parallel": 8, "parallel-responses-medium": 8,
+    "tavily-basic": 8, "tavily-advanced": 6,
     # Agentic search runs are long and metered; keep these low until a smoke
     # test shows what each vendor tolerates.
     "exa-agent": 4, "firecrawl": 4, "firecrawl-spark-2": 4,
