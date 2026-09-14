@@ -119,6 +119,10 @@ def status_for(provider: str, raw: dict[str, Any]) -> tuple[str, str | None]:
         return "not_found", "no funding enrichment"
     if provider == "company-enrich" and not response.get("id"):
         return "not_found", "no company"
+    if provider == "pvalyou" and not response.get("record"):
+        if response.get("timeout"):
+            return "error", f"no record within PVALYOU_MAX_WAIT_S (job {response.get('job_id')})"
+        return "not_found", response.get("error") or response.get("job_status") or "no company"
     if provider == "fundable" and not ((response.get("data") or {}).get("company")):
         error = response.get("error")
         if isinstance(error, dict):
@@ -181,6 +185,51 @@ def normalize(provider: str, raw: dict[str, Any]) -> dict[str, Any]:
         result["latest_date"] = result["latest_date"] or item.get("funding_date")
         result["total_raised"] = item.get("total_funding")
         return result
+    if provider == "pvalyou":
+        # the delivered record's funding block: rounds with round_type / round_date /
+        # round_amount_m_usd (millions), total_m_usd and rounds_count. The latest stage is the
+        # newest EQUITY-side round: debt, grants, secondaries, accelerator programme money and
+        # the like are kept in the record but are not a financing stage. Undated rounds fall
+        # behind dated ones, and among equal dates the later ladder stage is the latest.
+        funding = ((response.get("record") or {}).get("funding") or {})
+        rounds = [row for row in funding.get("rounds") or [] if isinstance(row, dict)]
+        # a buyout by a private-equity firm is filed in the record as an M&A row with a
+        # private-equity investor; as a financing stage it is Private Equity
+        def _pe_buyout(row: dict[str, Any]) -> bool:
+            return (str(row.get("round_type") or "").strip().lower() == "m&a"
+                    and any(str((i or {}).get("type") or "").strip().lower() == "private equity"
+                            for i in (row.get("investors") or []) if isinstance(i, dict)))
+        rounds = [dict(row, round_type="Private Equity") if _pe_buyout(row) else row for row in rounds]
+        # most buyouts sit under the record's acquisitions: a majority or minority stake bought
+        # by an investor is a private-equity financing, a full-entity acquisition is not a stage
+        for acq in (response.get("record") or {}).get("acquisitions") or []:
+            if isinstance(acq, dict) and "stake" in str(acq.get("acquisition_type") or "").lower():
+                rounds.append({"round_type": "Private Equity",
+                               "round_date": acq.get("announcement_date") or acq.get("announced_date"),
+                               "round_amount_m_usd": acq.get("acquisition_amount_m_usd")})
+        skip = ("debt", "loan", "secondary", "grant", "accelerator", "non-equity", "fund close",
+                "superseded", "m&a", "ico")
+        equity = [row for row in rounds if not any(k in str(row.get("round_type") or "").lower() for k in skip)] or rounds
+        ladder = ("pre-seed", "angel", "seed", "bridge", "series unknown", "series a", "series b", "series c",
+                  "series d", "series e", "series f", "series g", "series h", "corporate round",
+                  "private equity", "pre-ipo", "ipo", "post-ipo")
+        def _rank(row: dict[str, Any]) -> int:
+            key = str(row.get("round_type") or "").strip().lower()
+            return ladder.index(key) if key in ladder else -1
+        equity.sort(key=lambda row: (str(row.get("round_date") or ""), _rank(row)), reverse=True)
+        top = equity[0] if equity else {}
+        stage = top.get("round_type")
+        if str(stage or "").strip().lower() == "accelerator":
+            stage = "Pre-Seed"
+        amount = top.get("round_amount_m_usd")
+        total = funding.get("total_m_usd")
+        return {
+            "latest_stage": stage,
+            "latest_date": str(top.get("round_date") or "") or None,
+            "latest_amount": round(float(amount) * 1_000_000) if amount is not None else None,
+            "total_raised": round(float(total) * 1_000_000) if total is not None else None,
+            "round_count": funding.get("rounds_count") if funding.get("rounds_count") is not None else (len(rounds) or None),
+        }
     if provider == "fundable":
         company = (response.get("data") or {}).get("company") or {}
         latest_deal = company.get("latest_deal") or {}

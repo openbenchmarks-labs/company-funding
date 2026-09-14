@@ -1,0 +1,2106 @@
+{
+ "judge_model": "openai/gpt-5.6",
+ "policy": "docs/company-funding/llm-judge-v2.md, run with scripts/funding/judge_funding_stage.py's prompt and schema over OpenRouter",
+ "results": [
+  {
+   "record_id": "fiber-ww_01cdcdd0554ed3d2b753ea4f8704890a",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match."
+  },
+  {
+   "record_id": "fiber-ww_01f45da4cb09cb592f7954af86e4942a",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series C."
+  },
+  {
+   "record_id": "fiber-ww_0314c7ae2c9e16ea1ba3a21c585ece5b",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series B."
+  },
+  {
+   "record_id": "fiber-ww_03fa40d2e7f4404e606ad5eb0547f03f",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_051588c9aee61dcf25b93b6cc6e58387",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series F."
+  },
+  {
+   "record_id": "fiber-ww_0719213bf0d5194ab1bcfd827893a867",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_07774d1575311998b7a01e4dd034ac53",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_08bc5d7c6a990daada7968c1814b3c55",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_09db48e642c8bc7fe984171573524352",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_0aa28947d58c0748256aef638607432b",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match."
+  },
+  {
+   "record_id": "fiber-ww_0ac7a19896289fc553f619f04dcd3e89",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_0ae8eaefe7d71f45e3d9d05b167080a8",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_0fae2c88b4380a57bab3fba943ad0906",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match."
+  },
+  {
+   "record_id": "fiber-ww_0faecb5623a00825cc112e0d1ae6c1fa",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_108f133a8b7d3fc4d7efe410670bd2af",
+   "scoreable": true,
+   "correct": false,
+   "decision_basis": "incorrect",
+   "reason": "Rule 5 requires an Undisclosed or blank vendor stage."
+  },
+  {
+   "record_id": "fiber-ww_115a74e75243904b0fd7a7df46f5a3f7",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_12855caa422cb931ee11414b99970374",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series B."
+  },
+  {
+   "record_id": "fiber-ww_156dfa08e4762c2408970524c10d7ffc",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_15ca7e892a5e20bc1cf3961476f19b7e",
+   "scoreable": true,
+   "correct": false,
+   "decision_basis": "incorrect",
+   "reason": "Rule 1 requires the same Series letter; B and C differ."
+  },
+  {
+   "record_id": "fiber-ww_13fa64c08c5d1cd5daead21a8eccaaca",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-IPO stages match."
+  },
+  {
+   "record_id": "fiber-ww_192a84c3254cdc509e0db244c5297abb",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series B."
+  },
+  {
+   "record_id": "fiber-ww_1a93f91fa9d28bf4722e63da4ef73d98",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_17ee76bbdba1f482acea0384dfe06cd2",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_17963ae18a8ae8347dc58f414623f3b5",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_1d458e521866d7e86f41e07bb5931082",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Equity Crowdfunding stages match."
+  },
+  {
+   "record_id": "fiber-ww_1cdbfbedfbc11feb98e9a8629be8062a",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_1b8932d1bd9e3a47a61df0579e3b0ef0",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "exact_date_match",
+   "reason": "Rule 7: non-Series ground truth and dates exactly match."
+  },
+  {
+   "record_id": "fiber-ww_1df3a8cff5d29205529e265915a03b4c",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_1eaa7b2b750c34b928d79f44cfd10394",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_2128b2cdb1cc0e6e47b2e7c1b680082b",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series B."
+  },
+  {
+   "record_id": "fiber-ww_20e304d1d3a4ff9bcff8269a9ea683b6",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_20bf5eff04e0ad67e13334f776ff4369",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_24af82da25388738939f8e837faf8c77",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "exact_amount_match",
+   "reason": "Rule 7: stages differ, but amounts exactly match."
+  },
+  {
+   "record_id": "fiber-ww_21c5ea7cab8db945fee71cdbb23e69c4",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match."
+  },
+  {
+   "record_id": "fiber-ww_25be717bd0b22c7fbfd283a54072cbc0",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series B."
+  },
+  {
+   "record_id": "fiber-ww_2572483a584d0a13260380f1aa0776a5",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series B."
+  },
+  {
+   "record_id": "fiber-ww_257603f70d936402abd371e1fe38b9f2",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Equity Crowdfunding stages match."
+  },
+  {
+   "record_id": "fiber-ww_294df5432a946031c7c7de5a983d4f6c",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_2838c13a635b180a6d8a8492fbf6f465",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series C."
+  },
+  {
+   "record_id": "fiber-ww_29600719c6a50e9bff391c2a30d9309e",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series B."
+  },
+  {
+   "record_id": "fiber-ww_298c51803597b7a9c70948bb8a4fd9d2",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_2d841c37a141fe1291033786a57c3e28",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_2ba2b40bc5a7f6ad2ff241450168ab9e",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_2c7ea1c87a922fa3945d3ae042ee4f35",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match."
+  },
+  {
+   "record_id": "fiber-ww_3168b67fc702b8f1313ed89492966752",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series B."
+  },
+  {
+   "record_id": "fiber-ww_347b2d463ff77c50dd1ec1056afbc5ba",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_2dcba3a83fcd7e3a3779cb233fbf3ab7",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series B."
+  },
+  {
+   "record_id": "fiber-ww_376f5500eb7767c80188d443b6c202da",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_37ced1e3bdac814363580634df65b9d3",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match."
+  },
+  {
+   "record_id": "fiber-ww_36264d56ab7b78440b4c41a4e71c284f",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both are Series B."
+  },
+  {
+   "record_id": "fiber-ww_37d4f93bb73082f5b050c45220e3b336",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Series A matches Series A under rule 1."
+  },
+  {
+   "record_id": "fiber-ww_39ce8b4114b58f50ce51d3c6590bcc66",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Series A matches Series A under rule 1."
+  },
+  {
+   "record_id": "fiber-ww_3c26a56c1e0cdd2a6ff58141b5fae57a",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Angel stages match after normalization."
+  },
+  {
+   "record_id": "fiber-ww_39a704712188945472808f50d6589caa",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "exact_date_match",
+   "reason": "Seed and Pre-Seed differ, but dates match exactly under rule 7."
+  },
+  {
+   "record_id": "fiber-ww_3db96928be5fdeb448cce6f17b37140c",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Series B matches Series B under rule 1."
+  },
+  {
+   "record_id": "fiber-ww_37c4dfab39c77d788ff33b4224369470",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Series A matches Series A under rule 1."
+  },
+  {
+   "record_id": "fiber-ww_3c33d420c3205a156afece2a8d345da6",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-Seed stages match after normalization."
+  },
+  {
+   "record_id": "fiber-ww_3df5e9d9c1e224f325c54395508810e5",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Series A matches Series A under rule 1."
+  },
+  {
+   "record_id": "fiber-ww_3ebbd0308c09da861a8ca86dcbd0c5b5",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-Series A and Seed are equivalent under rule 2."
+  },
+  {
+   "record_id": "fiber-ww_3e5800cac3b0230af6cd705b2bd7cb56",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_3ebf7c03347a316bd5e8a67a548b40cd",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-Seed stages match after normalization."
+  },
+  {
+   "record_id": "fiber-ww_432caf56398075976559e98af192947e",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Series A matches Series A under rule 1."
+  },
+  {
+   "record_id": "fiber-ww_436fa68c47a300d9772817a4b19cd318",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_422ddc9d0a5a406ab693de16c0bd4a80",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_3f2a79335e0856b6eeedf00ed49e65a3",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Series A matches Series A under rule 1."
+  },
+  {
+   "record_id": "fiber-ww_44f7f3224c7b3f2b3fc6e7d5674d5d57",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-Seed stages match after normalization."
+  },
+  {
+   "record_id": "fiber-ww_443d12711d10bf847d07ed5d5c7fe319",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Series B matches Series B under rule 1."
+  },
+  {
+   "record_id": "fiber-ww_45fef6e91a45d3ee7f3be9d3b99ed225",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "exact_date_match",
+   "reason": "Stages differ, but dates match exactly under rule 7."
+  },
+  {
+   "record_id": "fiber-ww_43fe5fa965bacc18a0c0746713fb9fba",
+   "scoreable": true,
+   "correct": false,
+   "decision_basis": "incorrect",
+   "reason": "Series C does not match Series B; rule 1 forbids rescue."
+  },
+  {
+   "record_id": "fiber-ww_45f6a69fe91824ab8058d15e6342f715",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_485579538322161860e61ac2d960a4bb",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Series A matches Series A under rule 1."
+  },
+  {
+   "record_id": "fiber-ww_48cc0b8fdab4dfc7213f56f0258010dd",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Series B matches Series B under rule 1."
+  },
+  {
+   "record_id": "fiber-ww_494ab2e40d89da225042193de92d7982",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "exact_date_match",
+   "reason": "Stages differ, but dates match exactly under rule 7."
+  },
+  {
+   "record_id": "fiber-ww_4b8647db3f0acb75d7b5262ddd1832b5",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_4958cda43ec437745f940be1dcb22667",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Series B matches Series B under rule 1."
+  },
+  {
+   "record_id": "fiber-ww_4cd1d22acd2888a8ebcc0d62016d8a36",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Series B matches Series B under rule 1."
+  },
+  {
+   "record_id": "fiber-ww_5122a5c1e819c132f0e49b96fb4929b1",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_4e06fe163ac0e533e491190e576943a6",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_51e3c50715c6f4572153abcecfe88d2e",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_5293a30907d70a7216d09ed9f3cca234",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Series A matches Series A under rule 1."
+  },
+  {
+   "record_id": "fiber-ww_4f6d9777443e25429171aeb9fab10484",
+   "scoreable": true,
+   "correct": false,
+   "decision_basis": "incorrect",
+   "reason": "Private Equity does not state Series F; rule 1 forbids rescue."
+  },
+  {
+   "record_id": "fiber-ww_52f95a39a4a07447d6837cca7b94c23e",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-Seed stages match after normalization."
+  },
+  {
+   "record_id": "fiber-ww_52013f03314e4e18277c1b5a1d1d11d8",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Series B matches Series B under rule 1."
+  },
+  {
+   "record_id": "fiber-ww_54eeef779a68da925e110f3c12680baf",
+   "scoreable": true,
+   "correct": false,
+   "decision_basis": "incorrect",
+   "reason": "Pre-IPO and Series C are not equivalent; date and amount differ."
+  },
+  {
+   "record_id": "fiber-ww_539d130b2e09bb72f8f55be3fed45e88",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "exact_date_match",
+   "reason": "Stages differ, but dates match exactly under rule 7."
+  },
+  {
+   "record_id": "fiber-ww_564ac5a31c1cc953e280091c279c5fc2",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Series A matches Series A under rule 1."
+  },
+  {
+   "record_id": "fiber-ww_569a57cb7a7bcd0b43c31b10a9ab2334",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_56b25277ea6331a1f5cbade586435e6b",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match after normalization."
+  },
+  {
+   "record_id": "fiber-ww_571c0ba47c285cac1d8f76bc66162a3f",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "blank_ground_truth_pass",
+   "reason": "Blank ground-truth stage passes under rule 6."
+  },
+  {
+   "record_id": "fiber-ww_5743d36f3c974bbc309d4c492ff66646",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-Seed stages match after normalization."
+  },
+  {
+   "record_id": "fiber-ww_597b637d3a1a935ecb6592aa05c9bebd",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_58e376f25232cf8d058329462896234c",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Series A matches Series A under rule 1."
+  },
+  {
+   "record_id": "fiber-ww_59ce368878cedc9d188ab56afe0466bb",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_5ab4e451626583099e2defcd37ae7a77",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_60210f5efb20b0e3dfaecbd36489d006",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Series A matches Series A under rule 1."
+  },
+  {
+   "record_id": "fiber-ww_5cced19d0dc76db31fb06df19bca817a",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-Seed stages match after normalization."
+  },
+  {
+   "record_id": "fiber-ww_624fef2466a34e6cab65b38985225815",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Series A matches Series A under rule 1."
+  },
+  {
+   "record_id": "fiber-ww_5e2ef3a841ceb87a991ceba1e7a89ce8",
+   "scoreable": true,
+   "correct": false,
+   "decision_basis": "incorrect",
+   "reason": "Series Unknown does not state Series B; rule 1 forbids date rescue."
+  },
+  {
+   "record_id": "fiber-ww_61f49eade7570e535ef63f2b3b11a13e",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_672556dbcde3293263d5c4ea5c7dfea0",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Series B matches Series B under rule 1."
+  },
+  {
+   "record_id": "fiber-ww_65ec49a7348d88c9d493840bc5e60af4",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series A letter under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_64902fe1391671064ac1e79e8a54c731",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series A letter under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_68333ab2fa04a44c83e0ee2f33094101",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_676598fa8e83b43780cc2cd4fb8a9c80",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Growth Capital is clearly equivalent to growth private equity under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_69389a1bf7ed70c23f75bb19928b7266",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series B letter under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_6b13ead975b375c79e57c719d9c9d107",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match under Rule 2."
+  },
+  {
+   "record_id": "fiber-ww_6ab9ec659072bd9dc494d57dd2b43f62",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match under Rule 2."
+  },
+  {
+   "record_id": "fiber-ww_6a510f8dd52aa355fc9e240c28fb597e",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series A letter under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_6d0d21d5e97ffcb4a796711da59977d4",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Equity Crowdfunding stages match under Rule 2."
+  },
+  {
+   "record_id": "fiber-ww_6c311bb10cf5528f661abebfd0ece7e8",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series A letter under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_6fc678a658e3181bc1412764f38479b8",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series A letter under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_70fe61c9d559c85128026c870a841f48",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_723b3efb14d244c2bdaad83d4111b394",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-Seed is accepted for Early Stage under Rule 4."
+  },
+  {
+   "record_id": "fiber-ww_71e1e18a330d1c44c45045f91502586b",
+   "scoreable": true,
+   "correct": false,
+   "decision_basis": "incorrect",
+   "reason": "Series C does not match Series B under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_7231b5fc61676915f2a4310df136462b",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "exact_date_match",
+   "reason": "Stages differ, but dates match exactly under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_73fe0067b1d3a8560c9b3c9572ccfb99",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_76e44a2161e9a4bf8561cfb6cf210b83",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_72e01cec2c4e0ebaff1bcc6e53a0fab6",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series B letter under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_771fc56c50f6ca172b82c1767176bb7f",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series A letter under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_775502141fb06dd27c3379122e34dad9",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "exact_date_match",
+   "reason": "Stages differ, but dates match exactly under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_77d579ba8adaa7d35af251ca5f7461fe",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_7850c22a9f6b383704a32b197cbb83ef",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match under Rule 2."
+  },
+  {
+   "record_id": "fiber-ww_78e495c4313c95f67e93adf2c2433291",
+   "scoreable": true,
+   "correct": false,
+   "decision_basis": "incorrect",
+   "reason": "Series C does not match Series B under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_7be2ccf0e80291d18e7f8c6cb7222129",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series A letter under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_7c93dd6552cbbcc04d2b11b67c1ffa26",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "exact_date_match",
+   "reason": "Stages differ, but dates match exactly under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_7c5e3c7abf7cfb966ade9a9038fc3076",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match under Rule 2."
+  },
+  {
+   "record_id": "fiber-ww_7ce1c88e4cbe39e573e0e9a26140f610",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Growth Equity and Private Equity are equivalent under Rule 2."
+  },
+  {
+   "record_id": "fiber-ww_7f29b291859592a9abc23997f52ec8a8",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_7d626c14e085c892bcbfef67dd3f183c",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series A letter under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_82412c8765cc4c789195abec1708d023",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series A letter under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_7e40ccc366d8482e982b0d08851eac35",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "exact_date_match",
+   "reason": "Stages differ, but dates match exactly under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_861aa923713465f0d21cc54c9fd40f21",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_805fdd8736109fa32c1338e2425ed9bb",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_867025ab244aefc61a31921c2ba13da3",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series B letter under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_84825ba4b542d4c0901d357847443abc",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Equity Crowdfunding stages match under Rule 2."
+  },
+  {
+   "record_id": "fiber-ww_86c6251c4995be23461e8d79ae8b4cf0",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match under Rule 2."
+  },
+  {
+   "record_id": "fiber-ww_881079824faa189254f0daa2d64299ef",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_8a1def5ed799f4a72e07304a8b67b6b6",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series B letter under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_8af9b3075605321ee5c0d01473c58e89",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "exact_date_match",
+   "reason": "Stages differ, but dates match exactly under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_8bb7a97d4df49f45a6de39fa4ae7fa6e",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "exact_date_match",
+   "reason": "Stages differ, but dates match exactly under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_8baf360d8a4d69c53d59d8604b0f8af0",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match under Rule 2."
+  },
+  {
+   "record_id": "fiber-ww_8d93caa2ec40f1f35847ad537b0ef91b",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series C letter under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_8daedca3c0b47cc29694c48006f23e70",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series C letter under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_8ef1da8b2a917172d30946a86b536da3",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_8fb2063bee89981dcfe7bf3d4d287197",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series B letter under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_8ef6b6c5fbf396354790e5483aba76ff",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series B letter under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_91d21a1b1ae4d60c48a1cc49075592c3",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series B letter under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_920de4bb66716efe03280e72357ca5c7",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "exact_date_match",
+   "reason": "Stages differ, but dates match exactly under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_8a27008fa9317d14baf1533ecafc4c08",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series B letter under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_92d627aff51c7b14643889bfa43e896c",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_9779188141a17102f5d463c2066360b6",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_97a6920d91aab82c4b11893c2749b2e9",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_9301c0556890257d4003f0c7978a4bed",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_9320047ab6889afbf12562450c85da83",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_9a031cd9f48a9ff98681419b218d487f",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match."
+  },
+  {
+   "record_id": "fiber-ww_9b2a3f837e7f7f950418700b195c947b",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_9cd3510eedb986d939ccb7011d92839b",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_9cad2e3dd8b41af0fc2cd294bd4740de",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_9d76c7b9d3845540e2197f7c5ab058c4",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series B."
+  },
+  {
+   "record_id": "fiber-ww_a06a29322caec9500126fd75d66ea71d",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_9ff4e4eaf0e71bce95aa056325c49fbc",
+   "scoreable": true,
+   "correct": false,
+   "decision_basis": "incorrect",
+   "reason": "Rule 1: Seed omits the required Series A letter."
+  },
+  {
+   "record_id": "fiber-ww_a289e789b68a1f364fe990e008d9ee38",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_a1cc62941de964f77e80bee078709fa9",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match."
+  },
+  {
+   "record_id": "fiber-ww_a0fe94bb827827255fe083a4d6558e2f",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Rule 2: Corporate/Strategic Round is equivalent to Private Equity."
+  },
+  {
+   "record_id": "fiber-ww_a5355fc2f3ad39ca87f56442fb2006f1",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_a5ed42bcbf9a0e66caddb96e8ef3d720",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series B."
+  },
+  {
+   "record_id": "fiber-ww_a8396e20a96a1f6b3c96cc84a2642fee",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_a84ceb0520b20c8dcd7bb153e02e2cb4",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_a53d5e6862e0e98f3f55948dfdcba83f",
+   "scoreable": true,
+   "correct": false,
+   "decision_basis": "incorrect",
+   "reason": "Pre-Series B is not equivalent to Series B, and neither date nor amount matches."
+  },
+  {
+   "record_id": "fiber-ww_a800ad3989d5afdaf78708b791ba65d1",
+   "scoreable": true,
+   "correct": false,
+   "decision_basis": "incorrect",
+   "reason": "Rule 1: vendor omits the Series B component; amount cannot rescue it."
+  },
+  {
+   "record_id": "fiber-ww_a9f8b9e313f83ddd29d08bc89962d57a",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series B."
+  },
+  {
+   "record_id": "fiber-ww_a866d7a293a198502fac4d1f6b91f0e0",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "exact_date_match",
+   "reason": "Rule 7: non-Series stages differ, but dates match exactly."
+  },
+  {
+   "record_id": "fiber-ww_ab5bd233ff99391c0d36e1b95749670e",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series B."
+  },
+  {
+   "record_id": "fiber-ww_aa9bc730bd5c6de4bce3d2abf148eabc",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_aa9ec4e34b3a04462d12077a36348965",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match."
+  },
+  {
+   "record_id": "fiber-ww_aea62a95da82d0cf14667a2c826a8ea2",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_acc4cdb6a53958bb5162ef713791703c",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series C."
+  },
+  {
+   "record_id": "fiber-ww_ae83d41281266dbfb1ada0e13bcd0c9a",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_afbe5c781cc12f2d9c24b5a06b5e76a7",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match."
+  },
+  {
+   "record_id": "fiber-ww_b0e42c871584e3d1f40ec23ea96a81f0",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series C."
+  },
+  {
+   "record_id": "fiber-ww_b10cdbad7d53e959d6c02d5485f7f39a",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_b1fefa8999559ac9dac2e2add05f6e9a",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series B."
+  },
+  {
+   "record_id": "fiber-ww_b263747a2d85f97159c59d8450a8391a",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match."
+  },
+  {
+   "record_id": "fiber-ww_b3955a5328eb59a90180b3366ce0559d",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_b41fedf62ade6e68447c5c6ac9dd99b8",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series B."
+  },
+  {
+   "record_id": "fiber-ww_b62ffa4f0f4f271a7fee5ea3b3f878b1",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_b4bc06aaec219f663adb1a8364a5e4b4",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_b9efb83cb1d2489db632f35ecf6774a6",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_b94ae7cf331abcf096d8d08de54493bb",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_b8f3c99396f71c0ca6cf9cec4da6a042",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series B."
+  },
+  {
+   "record_id": "fiber-ww_bddd946d63ce634a0dd6f1b70aff472a",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_bbf6780087e4bc37fb9b7700d41a7a01",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_bfc545cde4c2d1ec0be9781406709ddf",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series C."
+  },
+  {
+   "record_id": "fiber-ww_becfdda3d10ab8a6e40fe0bde8dcc7df",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_bc957e649500fbd466a940d0a9fa4d02",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series C."
+  },
+  {
+   "record_id": "fiber-ww_c93c80d43181ab6ec92e251c7f49699c",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_c94998628b46fc20912b3ae1c257ac7b",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series C."
+  },
+  {
+   "record_id": "fiber-ww_c30ccf263159a8d813b0f3b8d62b2cc6",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series A."
+  },
+  {
+   "record_id": "fiber-ww_c9c2e21c449c4359477e40b6e6bbaef5",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series E."
+  },
+  {
+   "record_id": "fiber-ww_c1f394288e3fe9bb164f15c0021f4185",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Rule 1: both are Series C."
+  },
+  {
+   "record_id": "fiber-ww_ca02ad7eb9e6191c48f0568f389fd737",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_ca0aa0c39c60c240a38456a53094758b",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "exact_date_match",
+   "reason": "Non-Series mismatch rescued by exact date under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_c9627472c3f52d0334eb2c2151bd1d89",
+   "scoreable": true,
+   "correct": false,
+   "decision_basis": "incorrect",
+   "reason": "Stages differ and neither date nor amount matches under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_ca237c916d25624cf695b01540c571f4",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_ce1eb3129adad92d9d1a44a147363b32",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both stages are Series A under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_d04b87eb3344be304d8736b213085881",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Post-IPO stages match after normalization under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_ce5d94776d26f62b5cf6db61e71eeaee",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both stages are Series A under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_ce585cdf9eb6f990d9cea9abef0f1236",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both stages are Series B under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_d27f771b84ef046c24520300c1e59fa3",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both stages are Series A under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_d3fad599203ffa688a6e0c69ef3b30b2",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_d3ab9b41f98222ad7b5ff8a822172796",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match under Rule 2."
+  },
+  {
+   "record_id": "fiber-ww_d6a323c64438f5de81e7a45e095cf387",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_d4b4ca645d77ec194be2d1200f39cffc",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both stages are Series B under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_d7be3a017f8bda3309a89c250a129d87",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both stages are Series A under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_d66987f1002c904acbf08dc1a0629eb8",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both stages are Series A under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_d9c2b231e2a3b353c5c70b5df98b22f1",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both stages are Series A under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_d9dfc0307c9720419c3a39b49b70c7e2",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_db1094af0ebb9071cd303c82bba4730f",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_dcdfc4b9b53e094e922123326cb5a27b",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_dbcdb4e7851b9228bafed70570b9801c",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "exact_date_match",
+   "reason": "Non-Series mismatch rescued by exact date under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_dbd8d7036097cd4e8edbdb4e8bc35db0",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_ded9466eb38396eb3f6d68ec79a0163a",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-Seed stages match after normalization under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_dfbc12e4632704eb784bd096f9ad0af9",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_e03d28a8f6acf2659822448c310b091d",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match under Rule 2."
+  },
+  {
+   "record_id": "fiber-ww_e07e4bcad4a9522dfc929963d147c02d",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-IPO stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_e004b3cc0bcb0e18a2973a84065f365e",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both stages are Series A under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_e27dbfb41acfb853e120e2d92c81ad4c",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-Seed stages match after normalization under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_e2dbaf0289f8c36dfb49926ebb4d375e",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_e5c91705047d3021125eb3a5469a9d2d",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both stages are Series A under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_e49c371822860388d430292c254fbfc4",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_e5e84ace540bbb72e004d0fb3ea74d00",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_e3d8bf95d971f7a441af6f6bf7fbb336",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both stages are Series A under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_e60cd3b8d5be484f57e3afc02a9b7607",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-Seed stages match after normalization under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_e990434cb88dcfc4be254afd1d0e1dac",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_e7a29a17f7144e9bf52932fc7c6f9f92",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match under Rule 2."
+  },
+  {
+   "record_id": "fiber-ww_e61a26e3c6ca246550edf693145e41da",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both stages are Series C under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_e9de48ef112494a13dad3e528f157366",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both stages are Series A under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_e9dae5df3131c3f82fafb0231cc274b7",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both stages are Series A under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_eabfd818ff0b6ed086c772b802a701e1",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Series B-3 and Series B share letter B under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_ed92f798d4e11a001ee9a02025aa9bc9",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both stages are Series B under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_ed32309ae8cdcc4dc3d8be571f123700",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match under Rule 2."
+  },
+  {
+   "record_id": "fiber-ww_ee895ed0bbc1fa8fbe499c94373694e0",
+   "scoreable": true,
+   "correct": false,
+   "decision_basis": "incorrect",
+   "reason": "Seed Plus is not established as equivalent to Seed, and no date or amount matches under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_ed6e65f1c8af187ffd0960a6a3456a6d",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both stages are Series A under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_efa6e6be96579b586a3a6023af6bda71",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_f137c56699462c94a1a3a2a77d6c0a15",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Series A+ and Series A share letter A under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_f1b797066dcdfdb0e82e63b2d2b09922",
+   "scoreable": true,
+   "correct": false,
+   "decision_basis": "incorrect",
+   "reason": "Seed and Pre-Seed are distinct, with no date or amount match under Rule 3."
+  },
+  {
+   "record_id": "fiber-ww_f2a7f3b5c73d5c941af54ebfb4c64421",
+   "scoreable": true,
+   "correct": false,
+   "decision_basis": "incorrect",
+   "reason": "Stages differ and neither date nor amount matches under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_f4b2a52bccfff8f754a894f04b2f4d20",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match under Rule 7."
+  },
+  {
+   "record_id": "fiber-ww_f4cf6a6d4c99edfad35c7884d1029c5f",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both stages are Series H under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_f46ecf72f649f7d534e26ff4153cf38f",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Both stages are Series A under Rule 1."
+  },
+  {
+   "record_id": "fiber-ww_f4976369f7f29db2f929f0ba1d713dc9",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series B letter (Rule 1)."
+  },
+  {
+   "record_id": "fiber-ww_f607a5fb32199e7c5da4e6cf3b36a793",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "exact_date_match",
+   "reason": "Non-Series stages differ, but dates match exactly (Rule 7)."
+  },
+  {
+   "record_id": "fiber-ww_f8c3791d0ba2ad9a351a54899cdc8f93",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series A letter (Rule 1)."
+  },
+  {
+   "record_id": "fiber-ww_f8466a340841b566efd01693656edb99",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match (Rule 2)."
+  },
+  {
+   "record_id": "fiber-ww_f9d276c0dc924a9d6238bc0ef43d352e",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_fc07bc0bfc29c85a3cab832f55fa1822",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series B letter; date difference is irrelevant (Rule 1)."
+  },
+  {
+   "record_id": "fiber-ww_faafbd58744e601ba11c222b94e4fd46",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series A letter (Rule 1)."
+  },
+  {
+   "record_id": "fiber-ww_f9e3fb606b9636e29d67b823b8cfdf9e",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Private Equity stages match (Rule 2)."
+  },
+  {
+   "record_id": "fiber-ww_fd54eafd79a71915014a2c3fcbc154fe",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series D letter (Rule 1)."
+  },
+  {
+   "record_id": "fiber-ww_ff6bb66eb5c8e7037a8f423b76de5833",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-Seed stages match."
+  },
+  {
+   "record_id": "fiber-ww_fd58c989fdc9493016c22abad044d54b",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series C letter (Rule 1)."
+  },
+  {
+   "record_id": "manual-corgi-series-b1-2026-05-28",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series B letter (Rule 1)."
+  },
+  {
+   "record_id": "ww_08bd2ee91f004fc9ff55d3f133c52f3b",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series E letter (Rule 1)."
+  },
+  {
+   "record_id": "ww_15ff25b5188222c73e844cf3a0e43be3",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series D letter (Rule 1)."
+  },
+  {
+   "record_id": "ww_20d00167f18f6d37a6388b551d7cd2b5",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series A letter (Rule 1)."
+  },
+  {
+   "record_id": "ww_24fea5b9eac59861b8b37287ee55087e",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series A letter (Rule 1)."
+  },
+  {
+   "record_id": "ww_2a43c4686799e85efb30c0eaafc90114",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series A letter; date difference is irrelevant (Rule 1)."
+  },
+  {
+   "record_id": "ww_3986d001ab0c3fc668b42981df0a73c9",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series F letter (Rule 1)."
+  },
+  {
+   "record_id": "ww_435fc1da4c326adae0d95d053c0b7fca",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series C letter (Rule 1)."
+  },
+  {
+   "record_id": "ww_0630943178d9bad6e35a51094751b5aa",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Pre-Seed stages match."
+  },
+  {
+   "record_id": "manual-parallel-series-b-2026-04-29",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series B letter (Rule 1)."
+  },
+  {
+   "record_id": "ww_4d95099930f7d94b4c2b3ed5e4a98846",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series B letter (Rule 1)."
+  },
+  {
+   "record_id": "ww_55e14de42cfd33cc67ecfa296aa19b47",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "ww_565e9b9e3fc83e37b0e6d6ca79efb32d",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series C letter (Rule 1)."
+  },
+  {
+   "record_id": "ww_5bb73d343dcf32fd34b59a8fcbd32d3f",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series C letter; date and amount differences are irrelevant (Rule 1)."
+  },
+  {
+   "record_id": "ww_48e7333c82b29607d2c6f40657ccfb93",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series A letter; date and amount differences are irrelevant (Rule 1)."
+  },
+  {
+   "record_id": "ww_4b64ddaeb6fc4b9fb558981229ac6d4b",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series A letter (Rule 1)."
+  },
+  {
+   "record_id": "ww_6ccc4cb83d08d6ddbc40a3fa21ef88cb",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series A letter (Rule 1)."
+  },
+  {
+   "record_id": "ww_6e20da781b52ff31c47e76238f9c18d8",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "exact_date_match",
+   "reason": "Stages differ, but dates match exactly (Rule 7)."
+  },
+  {
+   "record_id": "ww_6ea93095a3e2623f1501854982016f80",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series A letter (Rule 1)."
+  },
+  {
+   "record_id": "ww_720ce59a9f20e7bfadc85555b161054d",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "ww_5fde04752282c91e0a5a6879b852ed42",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match; amount difference is irrelevant."
+  },
+  {
+   "record_id": "ww_808cf74cc7173780fd15cb41cf1a9181",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series B letter (Rule 1)."
+  },
+  {
+   "record_id": "ww_9b25cdd815b423c83673ba439f145f81",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "ww_5daf89f459b90aca618ca34a7193f3c9",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series B letter (Rule 1)."
+  },
+  {
+   "record_id": "ww_76479395f3ac7f1ca4934a3b69da7f2c",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "ww_b566ea04e0d9db7c7df13c7d54b4fd64",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series B letter (Rule 1)."
+  },
+  {
+   "record_id": "ww_b567b5bb7ee501f634e9a8d053d1b970",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed is accepted for Early Stage ground truth (Rule 4)."
+  },
+  {
+   "record_id": "ww_bba8720448c43549cd0f9ecf795e14ba",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series B letter; date and amount differences are irrelevant (Rule 1)."
+  },
+  {
+   "record_id": "ww_ad6bc51e0fb4ee6b5c962854234445b5",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match; amount difference is irrelevant."
+  },
+  {
+   "record_id": "ww_b31c0e51eefbd61d1447f14d2260c225",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "exact_date_match",
+   "reason": "Stages differ, but dates match exactly (Rule 7)."
+  },
+  {
+   "record_id": "ww_d851744f89296ce0104c2a132fc83666",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series B letter (Rule 1)."
+  },
+  {
+   "record_id": "ww_d1718277a8ed72d16ab410e11f6cd92e",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match."
+  },
+  {
+   "record_id": "ww_e2b2fd7c351cc6a4c2352ff10e2dd887",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series D letter (Rule 1)."
+  },
+  {
+   "record_id": "ww_cd78db116daaf16c639a8796d4dae9bf",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Growth Equity and Private Equity are equivalent (Rule 2)."
+  },
+  {
+   "record_id": "ww_d8d17e39ecb16737bbf1223762d1f950",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series C letter (Rule 1)."
+  },
+  {
+   "record_id": "ww_f7f21360922a153f4a22ca1ef2d44246",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series A letter; amount difference is irrelevant (Rule 1)."
+  },
+  {
+   "record_id": "ww_fab9bb4aa335f005731062f3e006908c",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series B letter; amount difference is irrelevant (Rule 1)."
+  },
+  {
+   "record_id": "ww_ed211940ace03819fc9d3bf950c0aef6",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "same_series_letter",
+   "reason": "Same Series A letter (Rule 1)."
+  },
+  {
+   "record_id": "ww_e7effef606a3ec4ba831e8567110578c",
+   "scoreable": true,
+   "correct": true,
+   "decision_basis": "equivalent_stage",
+   "reason": "Seed stages match; amount difference is irrelevant."
+  }
+ ]
+}
