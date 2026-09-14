@@ -1,0 +1,3902 @@
+{
+ "fiber-ww_01cdcdd0554ed3d2b753ea4f8704890a": {
+  "case_slug": "fiber-ww_01cdcdd0554ed3d2b753ea4f8704890a",
+  "input_domain": "tanisbrush.com",
+  "input_name": "Tanis Brush",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2026-05-01",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_01f45da4cb09cb592f7954af86e4942a": {
+  "case_slug": "fiber-ww_01f45da4cb09cb592f7954af86e4942a",
+  "input_domain": "radai.com",
+  "input_name": "Rad AI",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2025-05-20",
+   "latest_amount": 8000000,
+   "total_raised": 147000000.0,
+   "round_count": 6
+  }
+ },
+ "fiber-ww_0314c7ae2c9e16ea1ba3a21c585ece5b": {
+  "case_slug": "fiber-ww_0314c7ae2c9e16ea1ba3a21c585ece5b",
+  "input_domain": "getunleash.io",
+  "input_name": "Unleash",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-03-04",
+   "latest_amount": 35000000,
+   "total_raised": 49000000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_03fa40d2e7f4404e606ad5eb0547f03f": {
+  "case_slug": "fiber-ww_03fa40d2e7f4404e606ad5eb0547f03f",
+  "input_domain": "kuantom.com",
+  "input_name": "KUANTOM",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-01-13",
+   "latest_amount": 5190000,
+   "total_raised": 6960000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_051588c9aee61dcf25b93b6cc6e58387": {
+  "case_slug": "fiber-ww_051588c9aee61dcf25b93b6cc6e58387",
+  "input_domain": "ramp.com",
+  "input_name": "Ramp",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series F",
+   "latest_date": "2026-06-04",
+   "latest_amount": 750000000,
+   "total_raised": 3414500000.0,
+   "round_count": 14
+  }
+ },
+ "fiber-ww_0719213bf0d5194ab1bcfd827893a867": {
+  "case_slug": "fiber-ww_0719213bf0d5194ab1bcfd827893a867",
+  "input_domain": "skyharvest.com",
+  "input_name": "Sky Harvest",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": null,
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_07774d1575311998b7a01e4dd034ac53": {
+  "case_slug": "fiber-ww_07774d1575311998b7a01e4dd034ac53",
+  "input_domain": "sqkcloud.com",
+  "input_name": "SQK | Quantum Medical Imaging",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-seed",
+   "latest_date": "2026-01-12",
+   "latest_amount": 500000,
+   "total_raised": 700000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_08bc5d7c6a990daada7968c1814b3c55": {
+  "case_slug": "fiber-ww_08bc5d7c6a990daada7968c1814b3c55",
+  "input_domain": "teclens.com",
+  "input_name": "TECLens",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-02-11",
+   "latest_amount": 9300000,
+   "total_raised": 10460000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_09db48e642c8bc7fe984171573524352": {
+  "case_slug": "fiber-ww_09db48e642c8bc7fe984171573524352",
+  "input_domain": "kohort.io",
+  "input_name": "Kohort",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-05-07",
+   "latest_amount": 7000000,
+   "total_raised": 12000000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_0aa28947d58c0748256aef638607432b": {
+  "case_slug": "fiber-ww_0aa28947d58c0748256aef638607432b",
+  "input_domain": "oxfordonlinepharmacy.co.uk",
+  "input_name": "Oxford Online Pharmacy",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2024-08-01",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_0ac7a19896289fc553f619f04dcd3e89": {
+  "case_slug": "fiber-ww_0ac7a19896289fc553f619f04dcd3e89",
+  "input_domain": "neion.bio",
+  "input_name": "Neion Bio",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-06-11",
+   "latest_amount": 23000000,
+   "total_raised": 34000000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_0ae8eaefe7d71f45e3d9d05b167080a8": {
+  "case_slug": "fiber-ww_0ae8eaefe7d71f45e3d9d05b167080a8",
+  "input_domain": "metalead.ch",
+  "input_name": "metaLead",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-05-06",
+   "latest_amount": 1210000,
+   "total_raised": 1220000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_0fae2c88b4380a57bab3fba943ad0906": {
+  "case_slug": "fiber-ww_0fae2c88b4380a57bab3fba943ad0906",
+  "input_domain": "splend.com",
+  "input_name": "Splend",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2025-01-15",
+   "latest_amount": 123500000,
+   "total_raised": 664500000.0,
+   "round_count": 11
+  }
+ },
+ "fiber-ww_0faecb5623a00825cc112e0d1ae6c1fa": {
+  "case_slug": "fiber-ww_0faecb5623a00825cc112e0d1ae6c1fa",
+  "input_domain": "in2ition.ai",
+  "input_name": "In2ition AI, Inc",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-seed",
+   "latest_date": "2026-05-01",
+   "latest_amount": 1000000,
+   "total_raised": 1000000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_108f133a8b7d3fc4d7efe410670bd2af": {
+  "case_slug": "fiber-ww_108f133a8b7d3fc4d7efe410670bd2af",
+  "input_domain": "36zerovision.com",
+  "input_name": "36ZERO Vision",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-07-15",
+   "latest_amount": 3900000,
+   "total_raised": 4010000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_115a74e75243904b0fd7a7df46f5a3f7": {
+  "case_slug": "fiber-ww_115a74e75243904b0fd7a7df46f5a3f7",
+  "input_domain": "controlseat.com",
+  "input_name": "Control Seat (YC S26)",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-Seed",
+   "latest_date": "2026-01-01",
+   "latest_amount": 500000,
+   "total_raised": 500000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_12855caa422cb931ee11414b99970374": {
+  "case_slug": "fiber-ww_12855caa422cb931ee11414b99970374",
+  "input_domain": "cardurion.com",
+  "input_name": "Cardurion Pharmaceuticals",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2024-07-16",
+   "latest_amount": 260000000,
+   "total_raised": 621800000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_156dfa08e4762c2408970524c10d7ffc": {
+  "case_slug": "fiber-ww_156dfa08e4762c2408970524c10d7ffc",
+  "input_domain": "biosorra.com",
+  "input_name": "BIOSORRA",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-10-08",
+   "latest_amount": 3500000,
+   "total_raised": 4090000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_15ca7e892a5e20bc1cf3961476f19b7e": {
+  "case_slug": "fiber-ww_15ca7e892a5e20bc1cf3961476f19b7e",
+  "input_domain": "lovable.dev",
+  "input_name": "Lovable",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2026-08-12",
+   "latest_amount": 400000000,
+   "total_raised": 952340000.0,
+   "round_count": 6
+  }
+ },
+ "fiber-ww_13fa64c08c5d1cd5daead21a8eccaaca": {
+  "case_slug": "fiber-ww_13fa64c08c5d1cd5daead21a8eccaaca",
+  "input_domain": "rebellions.ai",
+  "input_name": "Rebellions",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-IPO",
+   "latest_date": "2026-03-30",
+   "latest_amount": 400000000,
+   "total_raised": 860200000.0,
+   "round_count": 8
+  }
+ },
+ "fiber-ww_192a84c3254cdc509e0db244c5297abb": {
+  "case_slug": "fiber-ww_192a84c3254cdc509e0db244c5297abb",
+  "input_domain": "courpharma.com",
+  "input_name": "COUR Pharma",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-06-18",
+   "latest_amount": 50000000,
+   "total_raised": 185000000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_1a93f91fa9d28bf4722e63da4ef73d98": {
+  "case_slug": "fiber-ww_1a93f91fa9d28bf4722e63da4ef73d98",
+  "input_domain": "myswyftapp.com",
+  "input_name": "Swyft",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-seed",
+   "latest_date": "2025-07-01",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_17ee76bbdba1f482acea0384dfe06cd2": {
+  "case_slug": "fiber-ww_17ee76bbdba1f482acea0384dfe06cd2",
+  "input_domain": "tapcheck.com",
+  "input_name": "Tapcheck",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-04-14",
+   "latest_amount": 25000000,
+   "total_raised": 245000000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_17963ae18a8ae8347dc58f414623f3b5": {
+  "case_slug": "fiber-ww_17963ae18a8ae8347dc58f414623f3b5",
+  "input_domain": "itsfifthsense.com",
+  "input_name": "Fifth Sense",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-seed",
+   "latest_date": "2026-04-17",
+   "latest_amount": 718000,
+   "total_raised": 720000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_1d458e521866d7e86f41e07bb5931082": {
+  "case_slug": "fiber-ww_1d458e521866d7e86f41e07bb5931082",
+  "input_domain": "tinywine.co.uk",
+  "input_name": "Tiny Wine",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Equity Crowdfunding",
+   "latest_date": "2026-03-01",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_1cdbfbedfbc11feb98e9a8629be8062a": {
+  "case_slug": "fiber-ww_1cdbfbedfbc11feb98e9a8629be8062a",
+  "input_domain": "glintsolar.com",
+  "input_name": "Glint Solar",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2024-11-07",
+   "latest_amount": 8000000,
+   "total_raised": 11110000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_1b8932d1bd9e3a47a61df0579e3b0ef0": {
+  "case_slug": "fiber-ww_1b8932d1bd9e3a47a61df0579e3b0ef0",
+  "input_domain": "veronetworks.com",
+  "input_name": "Vero Networks",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series Unknown",
+   "latest_date": "2026-02-23",
+   "latest_amount": 500000000,
+   "total_raised": 1245000000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_1df3a8cff5d29205529e265915a03b4c": {
+  "case_slug": "fiber-ww_1df3a8cff5d29205529e265915a03b4c",
+  "input_domain": "withrealm.com",
+  "input_name": "Realm",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-04-22",
+   "latest_amount": 4500000,
+   "total_raised": 6350000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_1eaa7b2b750c34b928d79f44cfd10394": {
+  "case_slug": "fiber-ww_1eaa7b2b750c34b928d79f44cfd10394",
+  "input_domain": "sequentiabiotech.com",
+  "input_name": "Sequentia Biotech",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2024-09-30",
+   "latest_amount": 11200000,
+   "total_raised": 11480000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_2128b2cdb1cc0e6e47b2e7c1b680082b": {
+  "case_slug": "fiber-ww_2128b2cdb1cc0e6e47b2e7c1b680082b",
+  "input_domain": "exodigo.com",
+  "input_name": "Exodigo",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2025-07-16",
+   "latest_amount": 96000000,
+   "total_raised": 271000000.0,
+   "round_count": 6
+  }
+ },
+ "fiber-ww_20e304d1d3a4ff9bcff8269a9ea683b6": {
+  "case_slug": "fiber-ww_20e304d1d3a4ff9bcff8269a9ea683b6",
+  "input_domain": "spartanx.ai",
+  "input_name": "SpartanX.ai",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-04-21",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_20bf5eff04e0ad67e13334f776ff4369": {
+  "case_slug": "fiber-ww_20bf5eff04e0ad67e13334f776ff4369",
+  "input_domain": "sleuthinsights.com",
+  "input_name": "Sleuth",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-10-16",
+   "latest_amount": 8000000,
+   "total_raised": 8000000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_24af82da25388738939f8e837faf8c77": {
+  "case_slug": "fiber-ww_24af82da25388738939f8e837faf8c77",
+  "input_domain": "aisy.ai",
+  "input_name": "aisy",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-01-27",
+   "latest_amount": 2300000,
+   "total_raised": 2300000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_21c5ea7cab8db945fee71cdbb23e69c4": {
+  "case_slug": "fiber-ww_21c5ea7cab8db945fee71cdbb23e69c4",
+  "input_domain": "tdwilliamson.com",
+  "input_name": "T.D. Williamson",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2025-06-10",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_25be717bd0b22c7fbfd283a54072cbc0": {
+  "case_slug": "fiber-ww_25be717bd0b22c7fbfd283a54072cbc0",
+  "input_domain": "odyssey.ml",
+  "input_name": "Odyssey",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-06-17",
+   "latest_amount": 310000000,
+   "total_raised": 310000000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_2572483a584d0a13260380f1aa0776a5": {
+  "case_slug": "fiber-ww_2572483a584d0a13260380f1aa0776a5",
+  "input_domain": "hypershell.tech",
+  "input_name": "Hypershell",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-01-01",
+   "latest_amount": 50000000,
+   "total_raised": 51380000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_257603f70d936402abd371e1fe38b9f2": {
+  "case_slug": "fiber-ww_257603f70d936402abd371e1fe38b9f2",
+  "input_domain": "americanrebelbeer.com",
+  "input_name": "American Rebel Beverage",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Post-IPO",
+   "latest_date": null,
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_294df5432a946031c7c7de5a983d4f6c": {
+  "case_slug": "fiber-ww_294df5432a946031c7c7de5a983d4f6c",
+  "input_domain": "observable.space",
+  "input_name": "Observable Space",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-05-28",
+   "latest_amount": 90000000,
+   "total_raised": 99500000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_2838c13a635b180a6d8a8492fbf6f465": {
+  "case_slug": "fiber-ww_2838c13a635b180a6d8a8492fbf6f465",
+  "input_domain": "iontra.com",
+  "input_name": "Iontra Inc",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2024-11-20",
+   "latest_amount": 45000000,
+   "total_raised": 114370000.0,
+   "round_count": 8
+  }
+ },
+ "fiber-ww_29600719c6a50e9bff391c2a30d9309e": {
+  "case_slug": "fiber-ww_29600719c6a50e9bff391c2a30d9309e",
+  "input_domain": "flex.team",
+  "input_name": "flex",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2025-01-01",
+   "latest_amount": 7700000,
+   "total_raised": 45800000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_298c51803597b7a9c70948bb8a4fd9d2": {
+  "case_slug": "fiber-ww_298c51803597b7a9c70948bb8a4fd9d2",
+  "input_domain": "fermelanta.com",
+  "input_name": "Fermelanta, Inc.",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-08-29",
+   "latest_amount": 13600000,
+   "total_raised": 15000000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_2d841c37a141fe1291033786a57c3e28": {
+  "case_slug": "fiber-ww_2d841c37a141fe1291033786a57c3e28",
+  "input_domain": "grainfinance.co",
+  "input_name": "Grain",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-03-05",
+   "latest_amount": 33000000,
+   "total_raised": 51000000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_2ba2b40bc5a7f6ad2ff241450168ab9e": {
+  "case_slug": "fiber-ww_2ba2b40bc5a7f6ad2ff241450168ab9e",
+  "input_domain": "zellify.app",
+  "input_name": "Zellify",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-04-28",
+   "latest_amount": 3700000,
+   "total_raised": 3900000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_2c7ea1c87a922fa3945d3ae042ee4f35": {
+  "case_slug": "fiber-ww_2c7ea1c87a922fa3945d3ae042ee4f35",
+  "input_domain": "coasttocoastlogistics.com",
+  "input_name": "Coast To Coast Logistics",
+  "status": "ok_no_rounds",
+  "normalized": {
+   "latest_stage": null,
+   "latest_date": null,
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": null
+  }
+ },
+ "fiber-ww_3168b67fc702b8f1313ed89492966752": {
+  "case_slug": "fiber-ww_3168b67fc702b8f1313ed89492966752",
+  "input_domain": "equal.in",
+  "input_name": "Equal",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-06-11",
+   "latest_amount": 30000000,
+   "total_raised": 40000000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_347b2d463ff77c50dd1ec1056afbc5ba": {
+  "case_slug": "fiber-ww_347b2d463ff77c50dd1ec1056afbc5ba",
+  "input_domain": "meetkin.com",
+  "input_name": "Kin Health",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-05-18",
+   "latest_amount": 9000000,
+   "total_raised": 9000000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_2dcba3a83fcd7e3a3779cb233fbf3ab7": {
+  "case_slug": "fiber-ww_2dcba3a83fcd7e3a3779cb233fbf3ab7",
+  "input_domain": "nitra.com",
+  "input_name": "Nitra",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-03-10",
+   "latest_amount": 50000000,
+   "total_raised": 249000000.0,
+   "round_count": 6
+  }
+ },
+ "fiber-ww_376f5500eb7767c80188d443b6c202da": {
+  "case_slug": "fiber-ww_376f5500eb7767c80188d443b6c202da",
+  "input_domain": "userainbow.com",
+  "input_name": "RAINBOW",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-01-15",
+   "latest_amount": 8000000,
+   "total_raised": 23000000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_37ced1e3bdac814363580634df65b9d3": {
+  "case_slug": "fiber-ww_37ced1e3bdac814363580634df65b9d3",
+  "input_domain": "en.ennov.com",
+  "input_name": "Ennov",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2026-05-20",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_36264d56ab7b78440b4c41a4e71c284f": {
+  "case_slug": "fiber-ww_36264d56ab7b78440b4c41a4e71c284f",
+  "input_domain": "flypyka.com",
+  "input_name": "Pyka",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2024-09-23",
+   "latest_amount": 40000000,
+   "total_raised": 88130000.0,
+   "round_count": 7
+  }
+ },
+ "fiber-ww_37d4f93bb73082f5b050c45220e3b336": {
+  "case_slug": "fiber-ww_37d4f93bb73082f5b050c45220e3b336",
+  "input_domain": "cube.asia",
+  "input_name": "Cube",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-04-01",
+   "latest_amount": 3700000,
+   "total_raised": 3700000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_39ce8b4114b58f50ce51d3c6590bcc66": {
+  "case_slug": "fiber-ww_39ce8b4114b58f50ce51d3c6590bcc66",
+  "input_domain": "nebulock.io",
+  "input_name": "Nebulock",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-06-25",
+   "latest_amount": 25000000,
+   "total_raised": 33500000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_3c26a56c1e0cdd2a6ff58141b5fae57a": {
+  "case_slug": "fiber-ww_3c26a56c1e0cdd2a6ff58141b5fae57a",
+  "input_domain": "damalo.ai",
+  "input_name": "DAMALO",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Angel",
+   "latest_date": "2026-04-01",
+   "latest_amount": 408000,
+   "total_raised": 410000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_39a704712188945472808f50d6589caa": {
+  "case_slug": "fiber-ww_39a704712188945472808f50d6589caa",
+  "input_domain": "ferrivia.ai",
+  "input_name": "Ferrivia",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-seed",
+   "latest_date": "2026-06-17",
+   "latest_amount": 50000,
+   "total_raised": 50000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_3db96928be5fdeb448cce6f17b37140c": {
+  "case_slug": "fiber-ww_3db96928be5fdeb448cce6f17b37140c",
+  "input_domain": "hevendrones.com",
+  "input_name": "Heven AeroTech",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2025-12-01",
+   "latest_amount": 100000000,
+   "total_raised": 115200000.0,
+   "round_count": 7
+  }
+ },
+ "fiber-ww_37c4dfab39c77d788ff33b4224369470": {
+  "case_slug": "fiber-ww_37c4dfab39c77d788ff33b4224369470",
+  "input_domain": "ethermed.ai",
+  "input_name": "Ethermed",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-04-16",
+   "latest_amount": 8500000,
+   "total_raised": 15000000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_3c33d420c3205a156afece2a8d345da6": {
+  "case_slug": "fiber-ww_3c33d420c3205a156afece2a8d345da6",
+  "input_domain": "trifetch.ai",
+  "input_name": "TriFetch",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-seed",
+   "latest_date": "2026-04-27",
+   "latest_amount": 1900000,
+   "total_raised": 1900000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_3df5e9d9c1e224f325c54395508810e5": {
+  "case_slug": "fiber-ww_3df5e9d9c1e224f325c54395508810e5",
+  "input_domain": "modernlife.com",
+  "input_name": "Modern Life",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-11-19",
+   "latest_amount": 20000000,
+   "total_raised": 35000000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_3ebbd0308c09da861a8ca86dcbd0c5b5": {
+  "case_slug": "fiber-ww_3ebbd0308c09da861a8ca86dcbd0c5b5",
+  "input_domain": "en.foretell.bio",
+  "input_name": "Foretell My Health",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-07-02",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_3e5800cac3b0230af6cd705b2bd7cb56": {
+  "case_slug": "fiber-ww_3e5800cac3b0230af6cd705b2bd7cb56",
+  "input_domain": "boost.space",
+  "input_name": "Boost.space",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-10-09",
+   "latest_amount": 3500000,
+   "total_raised": 14970000.0,
+   "round_count": 7
+  }
+ },
+ "fiber-ww_3ebf7c03347a316bd5e8a67a548b40cd": {
+  "case_slug": "fiber-ww_3ebf7c03347a316bd5e8a67a548b40cd",
+  "input_domain": "kinetitec.com",
+  "input_name": "KinetiTec, Inc.",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-seed",
+   "latest_date": "2025-12-01",
+   "latest_amount": 475000,
+   "total_raised": 480000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_432caf56398075976559e98af192947e": {
+  "case_slug": "fiber-ww_432caf56398075976559e98af192947e",
+  "input_domain": "klinic.com",
+  "input_name": "Klinic",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-07-08",
+   "latest_amount": 24200000,
+   "total_raised": 29450000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_436fa68c47a300d9772817a4b19cd318": {
+  "case_slug": "fiber-ww_436fa68c47a300d9772817a4b19cd318",
+  "input_domain": "cardinalactioncams.com",
+  "input_name": "Cardinal Action Cams",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-06-26",
+   "latest_amount": 7500,
+   "total_raised": 10000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_422ddc9d0a5a406ab693de16c0bd4a80": {
+  "case_slug": "fiber-ww_422ddc9d0a5a406ab693de16c0bd4a80",
+  "input_domain": "livestory.io",
+  "input_name": "Live Story",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-07-11",
+   "latest_amount": 3130000,
+   "total_raised": 3130000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_3f2a79335e0856b6eeedf00ed49e65a3": {
+  "case_slug": "fiber-ww_3f2a79335e0856b6eeedf00ed49e65a3",
+  "input_domain": "wellbees.co",
+  "input_name": "Wellbees",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-06-22",
+   "latest_amount": 3600000,
+   "total_raised": 5800000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_44f7f3224c7b3f2b3fc6e7d5674d5d57": {
+  "case_slug": "fiber-ww_44f7f3224c7b3f2b3fc6e7d5674d5d57",
+  "input_domain": "reforest-latam.com",
+  "input_name": "ReForest Latam",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-seed",
+   "latest_date": "2025-10-31",
+   "latest_amount": 1000000,
+   "total_raised": 1000000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_443d12711d10bf847d07ed5d5c7fe319": {
+  "case_slug": "fiber-ww_443d12711d10bf847d07ed5d5c7fe319",
+  "input_domain": "meanwhile.bm",
+  "input_name": "Meanwhile",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2025-10-07",
+   "latest_amount": 82000000,
+   "total_raised": 143000000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_45fef6e91a45d3ee7f3be9d3b99ed225": {
+  "case_slug": "fiber-ww_45fef6e91a45d3ee7f3be9d3b99ed225",
+  "input_domain": "disausa.com",
+  "input_name": "Disa Technologies, Inc.",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Other",
+   "latest_date": "2026-04-30",
+   "latest_amount": 33000000,
+   "total_raised": 78000000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_43fe5fa965bacc18a0c0746713fb9fba": {
+  "case_slug": "fiber-ww_43fe5fa965bacc18a0c0746713fb9fba",
+  "input_domain": "nanocorechip.com",
+  "input_name": "Nano-Core Chip | 微纳核芯",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2026-09-08",
+   "latest_amount": 149000000,
+   "total_raised": 349200000.0,
+   "round_count": 6
+  }
+ },
+ "fiber-ww_45f6a69fe91824ab8058d15e6342f715": {
+  "case_slug": "fiber-ww_45f6a69fe91824ab8058d15e6342f715",
+  "input_domain": "somneesleep.com",
+  "input_name": "StimScience",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-06-10",
+   "latest_amount": 10000000,
+   "total_raised": 24300000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_485579538322161860e61ac2d960a4bb": {
+  "case_slug": "fiber-ww_485579538322161860e61ac2d960a4bb",
+  "input_domain": "link.flagright.com",
+  "input_name": "Flagright",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-06-17",
+   "latest_amount": 12500000,
+   "total_raised": 20100000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_48cc0b8fdab4dfc7213f56f0258010dd": {
+  "case_slug": "fiber-ww_48cc0b8fdab4dfc7213f56f0258010dd",
+  "input_domain": "synoxtherapeutics.com",
+  "input_name": "SynOx Therapeutics",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2024-10-30",
+   "latest_amount": 17000000,
+   "total_raised": 170600000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_494ab2e40d89da225042193de92d7982": {
+  "case_slug": "fiber-ww_494ab2e40d89da225042193de92d7982",
+  "input_domain": "allscale.io",
+  "input_name": "AllScale",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Other",
+   "latest_date": "2026-06-25",
+   "latest_amount": null,
+   "total_raised": 6500000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_4b8647db3f0acb75d7b5262ddd1832b5": {
+  "case_slug": "fiber-ww_4b8647db3f0acb75d7b5262ddd1832b5",
+  "input_domain": "securite.world",
+  "input_name": "SecurITe",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-05-28",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_4958cda43ec437745f940be1dcb22667": {
+  "case_slug": "fiber-ww_4958cda43ec437745f940be1dcb22667",
+  "input_domain": "graidtech.com",
+  "input_name": "Graid Technology Inc.",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2025-03-05",
+   "latest_amount": 30000000,
+   "total_raised": 47500000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_4cd1d22acd2888a8ebcc0d62016d8a36": {
+  "case_slug": "fiber-ww_4cd1d22acd2888a8ebcc0d62016d8a36",
+  "input_domain": "lesfermesdebout.fr",
+  "input_name": "Les Fermes Debout (ex-NeoFarm)",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2025-01-01",
+   "latest_amount": 32400000,
+   "total_raised": 33500000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_5122a5c1e819c132f0e49b96fb4929b1": {
+  "case_slug": "fiber-ww_5122a5c1e819c132f0e49b96fb4929b1",
+  "input_domain": "rebolt.com",
+  "input_name": "Rebolt",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-05-06",
+   "latest_amount": 3000000,
+   "total_raised": 4600000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_4e06fe163ac0e533e491190e576943a6": {
+  "case_slug": "fiber-ww_4e06fe163ac0e533e491190e576943a6",
+  "input_domain": "arcadiamedicine.com",
+  "input_name": "Arcadia Medicine",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-10-06",
+   "latest_amount": 9250000,
+   "total_raised": 9250000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_51e3c50715c6f4572153abcecfe88d2e": {
+  "case_slug": "fiber-ww_51e3c50715c6f4572153abcecfe88d2e",
+  "input_domain": "thoughtly.com",
+  "input_name": "Thoughtly",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-09-01",
+   "latest_amount": 5500000,
+   "total_raised": 8500000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_5293a30907d70a7216d09ed9f3cca234": {
+  "case_slug": "fiber-ww_5293a30907d70a7216d09ed9f3cca234",
+  "input_domain": "singrow.com",
+  "input_name": "Singrow Pte Ltd",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-08-19",
+   "latest_amount": 4500000,
+   "total_raised": 4590000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_4f6d9777443e25429171aeb9fab10484": {
+  "case_slug": "fiber-ww_4f6d9777443e25429171aeb9fab10484",
+  "input_domain": "neo4j.com",
+  "input_name": "Neo4j Brasil",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2024-11-19",
+   "latest_amount": 50000000,
+   "total_raised": 600100000.0,
+   "round_count": 9
+  }
+ },
+ "fiber-ww_52f95a39a4a07447d6837cca7b94c23e": {
+  "case_slug": "fiber-ww_52f95a39a4a07447d6837cca7b94c23e",
+  "input_domain": "sencillo.finance",
+  "input_name": "Sencillo",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-seed",
+   "latest_date": "2025-11-01",
+   "latest_amount": 440000,
+   "total_raised": 440000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_52013f03314e4e18277c1b5a1d1d11d8": {
+  "case_slug": "fiber-ww_52013f03314e4e18277c1b5a1d1d11d8",
+  "input_domain": "sorcero.com",
+  "input_name": "Sorcero",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2025-11-21",
+   "latest_amount": 42500000,
+   "total_raised": 56200000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_54eeef779a68da925e110f3c12680baf": {
+  "case_slug": "fiber-ww_54eeef779a68da925e110f3c12680baf",
+  "input_domain": "zyt.com",
+  "input_name": "ZYT",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2025-11-01",
+   "latest_amount": 500000000,
+   "total_raised": 824200000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_539d130b2e09bb72f8f55be3fed45e88": {
+  "case_slug": "fiber-ww_539d130b2e09bb72f8f55be3fed45e88",
+  "input_domain": "squaremind.com",
+  "input_name": "SquareMind",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2026-04-27",
+   "latest_amount": 17900000,
+   "total_raised": 18010000.0,
+   "round_count": 6
+  }
+ },
+ "fiber-ww_564ac5a31c1cc953e280091c279c5fc2": {
+  "case_slug": "fiber-ww_564ac5a31c1cc953e280091c279c5fc2",
+  "input_domain": "prelude.so",
+  "input_name": "Prelude",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-05-20",
+   "latest_amount": 20000000,
+   "total_raised": 29320000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_569a57cb7a7bcd0b43c31b10a9ab2334": {
+  "case_slug": "fiber-ww_569a57cb7a7bcd0b43c31b10a9ab2334",
+  "input_domain": "adialante.com",
+  "input_name": "Adialante",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-03-01",
+   "latest_amount": 500000,
+   "total_raised": 1730000.0,
+   "round_count": 7
+  }
+ },
+ "fiber-ww_56b25277ea6331a1f5cbade586435e6b": {
+  "case_slug": "fiber-ww_56b25277ea6331a1f5cbade586435e6b",
+  "input_domain": "novelfh.com",
+  "input_name": "Novel Financial Holdings",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2026-06-22",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_571c0ba47c285cac1d8f76bc66162a3f": {
+  "case_slug": "fiber-ww_571c0ba47c285cac1d8f76bc66162a3f",
+  "input_domain": "cardiffdragons.com",
+  "input_name": "LEXISNEXIS DRAGONS Official Page",
+  "status": "ok_no_rounds",
+  "normalized": {
+   "latest_stage": null,
+   "latest_date": null,
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": null
+  }
+ },
+ "fiber-ww_5743d36f3c974bbc309d4c492ff66646": {
+  "case_slug": "fiber-ww_5743d36f3c974bbc309d4c492ff66646",
+  "input_domain": "rowansci.com",
+  "input_name": "Rowan",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-seed",
+   "latest_date": "2024-12-09",
+   "latest_amount": 2100000,
+   "total_raised": 2100000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_597b637d3a1a935ecb6592aa05c9bebd": {
+  "case_slug": "fiber-ww_597b637d3a1a935ecb6592aa05c9bebd",
+  "input_domain": "siin.shop",
+  "input_name": "Siin | سين",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-05-05",
+   "latest_amount": 3000000,
+   "total_raised": 3070000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_58e376f25232cf8d058329462896234c": {
+  "case_slug": "fiber-ww_58e376f25232cf8d058329462896234c",
+  "input_domain": "complyance.net",
+  "input_name": "Complyance",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-02-11",
+   "latest_amount": 20000000,
+   "total_raised": 20130000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_59ce368878cedc9d188ab56afe0466bb": {
+  "case_slug": "fiber-ww_59ce368878cedc9d188ab56afe0466bb",
+  "input_domain": "tinkeso.com",
+  "input_name": "Tinkeso Therapeutics",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2024-09-04",
+   "latest_amount": null,
+   "total_raised": 400000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_5ab4e451626583099e2defcd37ae7a77": {
+  "case_slug": "fiber-ww_5ab4e451626583099e2defcd37ae7a77",
+  "input_domain": "newenergy.com.au",
+  "input_name": "New Energy Transport",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-06-15",
+   "latest_amount": 3300000,
+   "total_raised": 3300000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_60210f5efb20b0e3dfaecbd36489d006": {
+  "case_slug": "fiber-ww_60210f5efb20b0e3dfaecbd36489d006",
+  "input_domain": "everlab.com.au",
+  "input_name": "Everlab",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-06-17",
+   "latest_amount": 46200000,
+   "total_raised": 58170000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_5cced19d0dc76db31fb06df19bca817a": {
+  "case_slug": "fiber-ww_5cced19d0dc76db31fb06df19bca817a",
+  "input_domain": "cnuic.com",
+  "input_name": "Cnuic Technologies",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-seed",
+   "latest_date": "2026-04-28",
+   "latest_amount": 3000000,
+   "total_raised": 3000000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_624fef2466a34e6cab65b38985225815": {
+  "case_slug": "fiber-ww_624fef2466a34e6cab65b38985225815",
+  "input_domain": "zyg.com",
+  "input_name": "ZyG",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-05-05",
+   "latest_amount": 60000000,
+   "total_raised": 118000000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_5e2ef3a841ceb87a991ceba1e7a89ce8": {
+  "case_slug": "fiber-ww_5e2ef3a841ceb87a991ceba1e7a89ce8",
+  "input_domain": "lzlair.com",
+  "input_name": "ZEROG Aircraft Industry",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series Unknown",
+   "latest_date": "2026-06-17",
+   "latest_amount": 70000000,
+   "total_raised": 176300000.0,
+   "round_count": 7
+  }
+ },
+ "fiber-ww_61f49eade7570e535ef63f2b3b11a13e": {
+  "case_slug": "fiber-ww_61f49eade7570e535ef63f2b3b11a13e",
+  "input_domain": "subsense-bci.com",
+  "input_name": "Subsense Inc.",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-12-11",
+   "latest_amount": 10000000,
+   "total_raised": 27000000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_672556dbcde3293263d5c4ea5c7dfea0": {
+  "case_slug": "fiber-ww_672556dbcde3293263d5c4ea5c7dfea0",
+  "input_domain": "pointfive.co",
+  "input_name": "PointFive",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-06-08",
+   "latest_amount": 60000000,
+   "total_raised": 112780000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_65ec49a7348d88c9d493840bc5e60af4": {
+  "case_slug": "fiber-ww_65ec49a7348d88c9d493840bc5e60af4",
+  "input_domain": "hekaglobal.com",
+  "input_name": "Heka Global",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-07-15",
+   "latest_amount": 14000000,
+   "total_raised": 14000000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_64902fe1391671064ac1e79e8a54c731": {
+  "case_slug": "fiber-ww_64902fe1391671064ac1e79e8a54c731",
+  "input_domain": "allo.restaurant",
+  "input_name": "allO",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-05-25",
+   "latest_amount": 14000000,
+   "total_raised": 20460000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_68333ab2fa04a44c83e0ee2f33094101": {
+  "case_slug": "fiber-ww_68333ab2fa04a44c83e0ee2f33094101",
+  "input_domain": "gosharpei.com",
+  "input_name": "Sharpei AI",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2024-07-02",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_676598fa8e83b43780cc2cd4fb8a9c80": {
+  "case_slug": "fiber-ww_676598fa8e83b43780cc2cd4fb8a9c80",
+  "input_domain": "wildfrontierstravel.com",
+  "input_name": "Wild Frontiers",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": null,
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_69389a1bf7ed70c23f75bb19928b7266": {
+  "case_slug": "fiber-ww_69389a1bf7ed70c23f75bb19928b7266",
+  "input_domain": "wirobotics.com",
+  "input_name": "WIRobotics Inc.",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-05-14",
+   "latest_amount": 68000000,
+   "total_raised": 80700000.0,
+   "round_count": 7
+  }
+ },
+ "fiber-ww_6b13ead975b375c79e57c719d9c9d107": {
+  "case_slug": "fiber-ww_6b13ead975b375c79e57c719d9c9d107",
+  "input_domain": "aquaversegroup.com",
+  "input_name": "AquaVerse",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2026-06-16",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_6ab9ec659072bd9dc494d57dd2b43f62": {
+  "case_slug": "fiber-ww_6ab9ec659072bd9dc494d57dd2b43f62",
+  "input_domain": "coris-holding.com",
+  "input_name": "Coris Holding",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2025-10-29",
+   "latest_amount": 116000000,
+   "total_raised": 268500000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_6a510f8dd52aa355fc9e240c28fb597e": {
+  "case_slug": "fiber-ww_6a510f8dd52aa355fc9e240c28fb597e",
+  "input_domain": "iadys.com",
+  "input_name": "IADYS",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2024-11-12",
+   "latest_amount": 11000000,
+   "total_raised": 12710000.0,
+   "round_count": 6
+  }
+ },
+ "fiber-ww_6d0d21d5e97ffcb4a796711da59977d4": {
+  "case_slug": "fiber-ww_6d0d21d5e97ffcb4a796711da59977d4",
+  "input_domain": "heartstonefarm.com",
+  "input_name": "Heartstone Farm",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Equity Crowdfunding",
+   "latest_date": "2026-06-24",
+   "latest_amount": 143000,
+   "total_raised": 960000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_6c311bb10cf5528f661abebfd0ece7e8": {
+  "case_slug": "fiber-ww_6c311bb10cf5528f661abebfd0ece7e8",
+  "input_domain": "oolka.ai",
+  "input_name": "Oolka",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-04-24",
+   "latest_amount": 14000000,
+   "total_raised": 21000000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_6fc678a658e3181bc1412764f38479b8": {
+  "case_slug": "fiber-ww_6fc678a658e3181bc1412764f38479b8",
+  "input_domain": "simplifyance.com",
+  "input_name": "Simplifyance™",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-04-08",
+   "latest_amount": 2630000,
+   "total_raised": 2630000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_70fe61c9d559c85128026c870a841f48": {
+  "case_slug": "fiber-ww_70fe61c9d559c85128026c870a841f48",
+  "input_domain": "lp.zaimo.ai",
+  "input_name": "Zaimo.ai",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-02-04",
+   "latest_amount": 640000,
+   "total_raised": 670000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_723b3efb14d244c2bdaad83d4111b394": {
+  "case_slug": "fiber-ww_723b3efb14d244c2bdaad83d4111b394",
+  "input_domain": "fudiprotein.com",
+  "input_name": "FUDI Protein",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-seed",
+   "latest_date": "2026-04-30",
+   "latest_amount": 1200000,
+   "total_raised": 1330000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_71e1e18a330d1c44c45045f91502586b": {
+  "case_slug": "fiber-ww_71e1e18a330d1c44c45045f91502586b",
+  "input_domain": "archera.ai",
+  "input_name": "Archera",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2026-07-17",
+   "latest_amount": 14500000,
+   "total_raised": 41830000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_7231b5fc61676915f2a4310df136462b": {
+  "case_slug": "fiber-ww_7231b5fc61676915f2a4310df136462b",
+  "input_domain": "eradivir.com",
+  "input_name": "Eradivir",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-10-07",
+   "latest_amount": 10000000,
+   "total_raised": 21350000.0,
+   "round_count": 8
+  }
+ },
+ "fiber-ww_73fe0067b1d3a8560c9b3c9572ccfb99": {
+  "case_slug": "fiber-ww_73fe0067b1d3a8560c9b3c9572ccfb99",
+  "input_domain": "generalaviation.com",
+  "input_name": "General Aviation",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-seed",
+   "latest_date": "2026-05-22",
+   "latest_amount": 500000,
+   "total_raised": 500000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_76e44a2161e9a4bf8561cfb6cf210b83": {
+  "case_slug": "fiber-ww_76e44a2161e9a4bf8561cfb6cf210b83",
+  "input_domain": "feedplan.com",
+  "input_name": "Feedplan",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-seed",
+   "latest_date": null,
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_72e01cec2c4e0ebaff1bcc6e53a0fab6": {
+  "case_slug": "fiber-ww_72e01cec2c4e0ebaff1bcc6e53a0fab6",
+  "input_domain": "keychain.com",
+  "input_name": "Keychain",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2025-08-19",
+   "latest_amount": 30000000,
+   "total_raised": 68000000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_771fc56c50f6ca172b82c1767176bb7f": {
+  "case_slug": "fiber-ww_771fc56c50f6ca172b82c1767176bb7f",
+  "input_domain": "deepcogito.com",
+  "input_name": "Deep Cogito",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-08-26",
+   "latest_amount": 43000000,
+   "total_raised": 56400000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_775502141fb06dd27c3379122e34dad9": {
+  "case_slug": "fiber-ww_775502141fb06dd27c3379122e34dad9",
+  "input_domain": "airato.jp",
+  "input_name": "アイラト株式会社",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-10-31",
+   "latest_amount": 1170000,
+   "total_raised": 5140000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_77d579ba8adaa7d35af251ca5f7461fe": {
+  "case_slug": "fiber-ww_77d579ba8adaa7d35af251ca5f7461fe",
+  "input_domain": "graphica.bio",
+  "input_name": "Biographica",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-01-07",
+   "latest_amount": 9400000,
+   "total_raised": 11580000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_7850c22a9f6b383704a32b197cbb83ef": {
+  "case_slug": "fiber-ww_7850c22a9f6b383704a32b197cbb83ef",
+  "input_domain": "delfinmidstream.com",
+  "input_name": "Delfin Midstream",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2026-06-01",
+   "latest_amount": null,
+   "total_raised": 3600000000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_78e495c4313c95f67e93adf2c2433291": {
+  "case_slug": "fiber-ww_78e495c4313c95f67e93adf2c2433291",
+  "input_domain": "universaldx.com",
+  "input_name": "Universal Diagnostics S.A.",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2026-05-20",
+   "latest_amount": 72600000,
+   "total_raised": 236950000.0,
+   "round_count": 11
+  }
+ },
+ "fiber-ww_7be2ccf0e80291d18e7f8c6cb7222129": {
+  "case_slug": "fiber-ww_7be2ccf0e80291d18e7f8c6cb7222129",
+  "input_domain": "cogent.com",
+  "input_name": "Cogent",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-02-18",
+   "latest_amount": 42000000,
+   "total_raised": 53000000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_7c93dd6552cbbcc04d2b11b67c1ffa26": {
+  "case_slug": "fiber-ww_7c93dd6552cbbcc04d2b11b67c1ffa26",
+  "input_domain": "assemblia.ai",
+  "input_name": "Assemblia",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Angel",
+   "latest_date": "2025-05-30",
+   "latest_amount": 155000,
+   "total_raised": 160000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_7c5e3c7abf7cfb966ade9a9038fc3076": {
+  "case_slug": "fiber-ww_7c5e3c7abf7cfb966ade9a9038fc3076",
+  "input_domain": "aznga.com",
+  "input_name": "AZ NGA",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2024-12-01",
+   "latest_amount": 157000000,
+   "total_raised": 373000000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_7ce1c88e4cbe39e573e0e9a26140f610": {
+  "case_slug": "fiber-ww_7ce1c88e4cbe39e573e0e9a26140f610",
+  "input_domain": "nesto-software.com",
+  "input_name": "Nesto Software GmbH",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2026-04-13",
+   "latest_amount": 11900000,
+   "total_raised": 11900000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_7f29b291859592a9abc23997f52ec8a8": {
+  "case_slug": "fiber-ww_7f29b291859592a9abc23997f52ec8a8",
+  "input_domain": "gorentify.com",
+  "input_name": "Rentify 🇦🇪",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-06-22",
+   "latest_amount": 2000000,
+   "total_raised": 2500000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_7d626c14e085c892bcbfef67dd3f183c": {
+  "case_slug": "fiber-ww_7d626c14e085c892bcbfef67dd3f183c",
+  "input_domain": "fuvex.com",
+  "input_name": "FuVeX",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-08-05",
+   "latest_amount": 3500000,
+   "total_raised": 6000000.0,
+   "round_count": 6
+  }
+ },
+ "fiber-ww_82412c8765cc4c789195abec1708d023": {
+  "case_slug": "fiber-ww_82412c8765cc4c789195abec1708d023",
+  "input_domain": "novellia.com",
+  "input_name": "Novellia",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-06-02",
+   "latest_amount": 18000000,
+   "total_raised": 18000000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_7e40ccc366d8482e982b0d08851eac35": {
+  "case_slug": "fiber-ww_7e40ccc366d8482e982b0d08851eac35",
+  "input_domain": "climatefirstbank.com",
+  "input_name": "Climate First Bank",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2026-06-10",
+   "latest_amount": 67500000,
+   "total_raised": 96500000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_861aa923713465f0d21cc54c9fd40f21": {
+  "case_slug": "fiber-ww_861aa923713465f0d21cc54c9fd40f21",
+  "input_domain": "banditshq.com",
+  "input_name": "BANDITS",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-11-11",
+   "latest_amount": 430000,
+   "total_raised": 430000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_805fdd8736109fa32c1338e2425ed9bb": {
+  "case_slug": "fiber-ww_805fdd8736109fa32c1338e2425ed9bb",
+  "input_domain": "entelo.bio",
+  "input_name": "Entelo Bio",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-04-24",
+   "latest_amount": 4000000,
+   "total_raised": 5200000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_867025ab244aefc61a31921c2ba13da3": {
+  "case_slug": "fiber-ww_867025ab244aefc61a31921c2ba13da3",
+  "input_domain": "hmnc-brainhealth.com",
+  "input_name": "HMNC Brain Health",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-06-15",
+   "latest_amount": 50000000,
+   "total_raised": 74600000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_84825ba4b542d4c0901d357847443abc": {
+  "case_slug": "fiber-ww_84825ba4b542d4c0901d357847443abc",
+  "input_domain": "altilium.tech",
+  "input_name": "Altilium Clean Technology",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Equity Crowdfunding",
+   "latest_date": "2026-07-16",
+   "latest_amount": 1000000,
+   "total_raised": 43840000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_86c6251c4995be23461e8d79ae8b4cf0": {
+  "case_slug": "fiber-ww_86c6251c4995be23461e8d79ae8b4cf0",
+  "input_domain": "diponiocontracting.com",
+  "input_name": "DiPonio Contracting, Inc.",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2026-06-22",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_881079824faa189254f0daa2d64299ef": {
+  "case_slug": "fiber-ww_881079824faa189254f0daa2d64299ef",
+  "input_domain": "wakeline.ai",
+  "input_name": "Wakeline",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-seed",
+   "latest_date": "2026-06-24",
+   "latest_amount": 2460000,
+   "total_raised": 2460000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_8a1def5ed799f4a72e07304a8b67b6b6": {
+  "case_slug": "fiber-ww_8a1def5ed799f4a72e07304a8b67b6b6",
+  "input_domain": "car-ku.com",
+  "input_name": "CARKU",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2025-02-25",
+   "latest_amount": 13800000,
+   "total_raised": 13800000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_8af9b3075605321ee5c0d01473c58e89": {
+  "case_slug": "fiber-ww_8af9b3075605321ee5c0d01473c58e89",
+  "input_domain": "fixposition.com",
+  "input_name": "Fixposition",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Corporate Round",
+   "latest_date": "2023-01-01",
+   "latest_amount": null,
+   "total_raised": 10380000.0,
+   "round_count": 8
+  }
+ },
+ "fiber-ww_8bb7a97d4df49f45a6de39fa4ae7fa6e": {
+  "case_slug": "fiber-ww_8bb7a97d4df49f45a6de39fa4ae7fa6e",
+  "input_domain": "gaga-app.com",
+  "input_name": "GAGA",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-03-25",
+   "latest_amount": 2500000,
+   "total_raised": 4320000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_8baf360d8a4d69c53d59d8604b0f8af0": {
+  "case_slug": "fiber-ww_8baf360d8a4d69c53d59d8604b0f8af0",
+  "input_domain": "bubbledown.com",
+  "input_name": "Bubble Down Car Wash",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2026-06-30",
+   "latest_amount": 200000000,
+   "total_raised": 200000000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_8d93caa2ec40f1f35847ad537b0ef91b": {
+  "case_slug": "fiber-ww_8d93caa2ec40f1f35847ad537b0ef91b",
+  "input_domain": "physicsx.ai",
+  "input_name": "PhysicsX",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2026-06-08",
+   "latest_amount": 300000000,
+   "total_raised": 467000000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_8daedca3c0b47cc29694c48006f23e70": {
+  "case_slug": "fiber-ww_8daedca3c0b47cc29694c48006f23e70",
+  "input_domain": "siat.cc",
+  "input_name": "Sino Applied Technology Co., Ltd",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2025-05-12",
+   "latest_amount": 22000000,
+   "total_raised": 22000000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_8ef1da8b2a917172d30946a86b536da3": {
+  "case_slug": "fiber-ww_8ef1da8b2a917172d30946a86b536da3",
+  "input_domain": "getvictus.ai",
+  "input_name": "VICTUS Technologies, Inc.",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-03-25",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_8fb2063bee89981dcfe7bf3d4d287197": {
+  "case_slug": "fiber-ww_8fb2063bee89981dcfe7bf3d4d287197",
+  "input_domain": "audion.ai",
+  "input_name": "Audion",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-04-27",
+   "latest_amount": 15000000,
+   "total_raised": 22700000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_8ef6b6c5fbf396354790e5483aba76ff": {
+  "case_slug": "fiber-ww_8ef6b6c5fbf396354790e5483aba76ff",
+  "input_domain": "salmon.ph",
+  "input_name": "Salmon Group Ltd",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-04-20",
+   "latest_amount": 60000000,
+   "total_raised": 209000000.0,
+   "round_count": 6
+  }
+ },
+ "fiber-ww_91d21a1b1ae4d60c48a1cc49075592c3": {
+  "case_slug": "fiber-ww_91d21a1b1ae4d60c48a1cc49075592c3",
+  "input_domain": "hala.com",
+  "input_name": "HALA",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2025-07-31",
+   "latest_amount": 157000000,
+   "total_raised": 164060000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_920de4bb66716efe03280e72357ca5c7": {
+  "case_slug": "fiber-ww_920de4bb66716efe03280e72357ca5c7",
+  "input_domain": "solardew.com",
+  "input_name": "SolarDew Clean Water B.V.",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series Unknown",
+   "latest_date": "2026-06-03",
+   "latest_amount": null,
+   "total_raised": 2460000.0,
+   "round_count": 7
+  }
+ },
+ "fiber-ww_8a27008fa9317d14baf1533ecafc4c08": {
+  "case_slug": "fiber-ww_8a27008fa9317d14baf1533ecafc4c08",
+  "input_domain": "smartsatellite.com",
+  "input_name": "Beijing Smart Satellite Technology Co., Ltd.",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": null,
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_92d627aff51c7b14643889bfa43e896c": {
+  "case_slug": "fiber-ww_92d627aff51c7b14643889bfa43e896c",
+  "input_domain": "oracomputing.com",
+  "input_name": "Ora Computing",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-06-24",
+   "latest_amount": 3990000,
+   "total_raised": 3990000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_9779188141a17102f5d463c2066360b6": {
+  "case_slug": "fiber-ww_9779188141a17102f5d463c2066360b6",
+  "input_domain": "joinupside.com",
+  "input_name": "Upside",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-06-25",
+   "latest_amount": 20000000,
+   "total_raised": 20140000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_97a6920d91aab82c4b11893c2749b2e9": {
+  "case_slug": "fiber-ww_97a6920d91aab82c4b11893c2749b2e9",
+  "input_domain": "giga.ai",
+  "input_name": "Giga",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-07-01",
+   "latest_amount": 61000000,
+   "total_raised": 65099999.99999999,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_9301c0556890257d4003f0c7978a4bed": {
+  "case_slug": "fiber-ww_9301c0556890257d4003f0c7978a4bed",
+  "input_domain": "lilac.ag",
+  "input_name": "Lilac Agriculture",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-04-09",
+   "latest_amount": 1680000,
+   "total_raised": 1820000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_9320047ab6889afbf12562450c85da83": {
+  "case_slug": "fiber-ww_9320047ab6889afbf12562450c85da83",
+  "input_domain": "o1.exchange",
+  "input_name": "o1.exchange",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-08-19",
+   "latest_amount": 4200000,
+   "total_raised": 4200000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_9a031cd9f48a9ff98681419b218d487f": {
+  "case_slug": "fiber-ww_9a031cd9f48a9ff98681419b218d487f",
+  "input_domain": "duraventgroup.com",
+  "input_name": "Duravent Group",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2026-03-18",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_9b2a3f837e7f7f950418700b195c947b": {
+  "case_slug": "fiber-ww_9b2a3f837e7f7f950418700b195c947b",
+  "input_domain": "getgorgie.com",
+  "input_name": "GORGIE",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-04-29",
+   "latest_amount": 24500000,
+   "total_raised": 31000000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_9cd3510eedb986d939ccb7011d92839b": {
+  "case_slug": "fiber-ww_9cd3510eedb986d939ccb7011d92839b",
+  "input_domain": "majc.ai",
+  "input_name": "MAJC✨",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-05-26",
+   "latest_amount": 2000000,
+   "total_raised": 2000000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_9cad2e3dd8b41af0fc2cd294bd4740de": {
+  "case_slug": "fiber-ww_9cad2e3dd8b41af0fc2cd294bd4740de",
+  "input_domain": "runetech.co",
+  "input_name": "Rune Technologies",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-07-21",
+   "latest_amount": 24000000,
+   "total_raised": 30200000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_9d76c7b9d3845540e2197f7c5ab058c4": {
+  "case_slug": "fiber-ww_9d76c7b9d3845540e2197f7c5ab058c4",
+  "input_domain": "netbank.ph",
+  "input_name": "Netbank",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-04-22",
+   "latest_amount": null,
+   "total_raised": 2000000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_a06a29322caec9500126fd75d66ea71d": {
+  "case_slug": "fiber-ww_a06a29322caec9500126fd75d66ea71d",
+  "input_domain": "propsoch.com",
+  "input_name": "Propsoch",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-06-03",
+   "latest_amount": 2000000,
+   "total_raised": 2620000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_9ff4e4eaf0e71bce95aa056325c49fbc": {
+  "case_slug": "fiber-ww_9ff4e4eaf0e71bce95aa056325c49fbc",
+  "input_domain": "wingbits.com",
+  "input_name": "Wingbits",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-01-21",
+   "latest_amount": 5600000,
+   "total_raised": 9260000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_a289e789b68a1f364fe990e008d9ee38": {
+  "case_slug": "fiber-ww_a289e789b68a1f364fe990e008d9ee38",
+  "input_domain": "arcee.ai",
+  "input_name": "Arcee AI",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2024-07-23",
+   "latest_amount": 24000000,
+   "total_raised": 29500000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_a1cc62941de964f77e80bee078709fa9": {
+  "case_slug": "fiber-ww_a1cc62941de964f77e80bee078709fa9",
+  "input_domain": "enrollhere.com",
+  "input_name": "EnrollHere, Inc.",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2026-04-20",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_a0fe94bb827827255fe083a4d6558e2f": {
+  "case_slug": "fiber-ww_a0fe94bb827827255fe083a4d6558e2f",
+  "input_domain": "moppfoods.com",
+  "input_name": "MOPP Foods",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Corporate Round",
+   "latest_date": "2025-03-28",
+   "latest_amount": null,
+   "total_raised": 190000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_a5355fc2f3ad39ca87f56442fb2006f1": {
+  "case_slug": "fiber-ww_a5355fc2f3ad39ca87f56442fb2006f1",
+  "input_domain": "happyhotel.io",
+  "input_name": "happyhotel",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-02-19",
+   "latest_amount": 7700000,
+   "total_raised": 9900000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_a5ed42bcbf9a0e66caddb96e8ef3d720": {
+  "case_slug": "fiber-ww_a5ed42bcbf9a0e66caddb96e8ef3d720",
+  "input_domain": "knownwell.co",
+  "input_name": "knownwell",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2025-10-20",
+   "latest_amount": 25000000,
+   "total_raised": 49500000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_a8396e20a96a1f6b3c96cc84a2642fee": {
+  "case_slug": "fiber-ww_a8396e20a96a1f6b3c96cc84a2642fee",
+  "input_domain": "8090.ai",
+  "input_name": "8090 Solutions",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-06-29",
+   "latest_amount": 135000000,
+   "total_raised": 135000000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_a84ceb0520b20c8dcd7bb153e02e2cb4": {
+  "case_slug": "fiber-ww_a84ceb0520b20c8dcd7bb153e02e2cb4",
+  "input_domain": "cognichip.ai",
+  "input_name": "Cognichip",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-04-01",
+   "latest_amount": 60000000,
+   "total_raised": 93000000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_a53d5e6862e0e98f3f55948dfdcba83f": {
+  "case_slug": "fiber-ww_a53d5e6862e0e98f3f55948dfdcba83f",
+  "input_domain": "emoenergy.in",
+  "input_name": "EMO.energy",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-06-19",
+   "latest_amount": 6200000,
+   "total_raised": 13770000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_a800ad3989d5afdaf78708b791ba65d1": {
+  "case_slug": "fiber-ww_a800ad3989d5afdaf78708b791ba65d1",
+  "input_domain": "novaskystories.com",
+  "input_name": "Nova Sky Stories",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-08-25",
+   "latest_amount": 50000000,
+   "total_raised": 50000000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_a9f8b9e313f83ddd29d08bc89962d57a": {
+  "case_slug": "fiber-ww_a9f8b9e313f83ddd29d08bc89962d57a",
+  "input_domain": "drinkthepathfinder.com",
+  "input_name": "The Pathfinder",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2025-09-10",
+   "latest_amount": 3600000,
+   "total_raised": 7490000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_a866d7a293a198502fac4d1f6b91f0e0": {
+  "case_slug": "fiber-ww_a866d7a293a198502fac4d1f6b91f0e0",
+  "input_domain": "dalan.com",
+  "input_name": "Dalan Animal Health, Inc.",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "SAFE",
+   "latest_date": "2025-11-19",
+   "latest_amount": 3000000,
+   "total_raised": 12950000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_ab5bd233ff99391c0d36e1b95749670e": {
+  "case_slug": "fiber-ww_ab5bd233ff99391c0d36e1b95749670e",
+  "input_domain": "forsightrobotics.com",
+  "input_name": "ForSight Robotics",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2025-06-24",
+   "latest_amount": 125000000,
+   "total_raised": 190000000.0,
+   "round_count": 6
+  }
+ },
+ "fiber-ww_aa9bc730bd5c6de4bce3d2abf148eabc": {
+  "case_slug": "fiber-ww_aa9bc730bd5c6de4bce3d2abf148eabc",
+  "input_domain": "netris.io",
+  "input_name": "Netris",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-06-25",
+   "latest_amount": 15000000,
+   "total_raised": 16340000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_aa9ec4e34b3a04462d12077a36348965": {
+  "case_slug": "fiber-ww_aa9ec4e34b3a04462d12077a36348965",
+  "input_domain": "3vinfrastructure.com",
+  "input_name": "3V Infrastructure",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2024-08-06",
+   "latest_amount": 40000000,
+   "total_raised": 40000000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_aea62a95da82d0cf14667a2c826a8ea2": {
+  "case_slug": "fiber-ww_aea62a95da82d0cf14667a2c826a8ea2",
+  "input_domain": "fieldmaterials.com",
+  "input_name": "Field Materials AI",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-04-30",
+   "latest_amount": 10500000,
+   "total_raised": 15150000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_acc4cdb6a53958bb5162ef713791703c": {
+  "case_slug": "fiber-ww_acc4cdb6a53958bb5162ef713791703c",
+  "input_domain": "gradial.com",
+  "input_name": "Gradial",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2026-06-17",
+   "latest_amount": 65000000,
+   "total_raised": 118400000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_ae83d41281266dbfb1ada0e13bcd0c9a": {
+  "case_slug": "fiber-ww_ae83d41281266dbfb1ada0e13bcd0c9a",
+  "input_domain": "openfx.com",
+  "input_name": "OpenFX",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-03-31",
+   "latest_amount": 94000000,
+   "total_raised": 117000000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_afbe5c781cc12f2d9c24b5a06b5e76a7": {
+  "case_slug": "fiber-ww_afbe5c781cc12f2d9c24b5a06b5e76a7",
+  "input_domain": "dyflex.com.au",
+  "input_name": "DyFlex Solutions",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2025-02-01",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_b0e42c871584e3d1f40ec23ea96a81f0": {
+  "case_slug": "fiber-ww_b0e42c871584e3d1f40ec23ea96a81f0",
+  "input_domain": "acuitymd.com",
+  "input_name": "AcuityMD",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2025-12-22",
+   "latest_amount": 80000000,
+   "total_raised": 163680000.0,
+   "round_count": 7
+  }
+ },
+ "fiber-ww_b10cdbad7d53e959d6c02d5485f7f39a": {
+  "case_slug": "fiber-ww_b10cdbad7d53e959d6c02d5485f7f39a",
+  "input_domain": "atom-humanoid.com",
+  "input_name": "株式会社アトム",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-05-27",
+   "latest_amount": 20000000,
+   "total_raised": 30000000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_b1fefa8999559ac9dac2e2add05f6e9a": {
+  "case_slug": "fiber-ww_b1fefa8999559ac9dac2e2add05f6e9a",
+  "input_domain": "boundaryai.cn",
+  "input_name": "Boundary.AI",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-03-30",
+   "latest_amount": 14500000,
+   "total_raised": 29940000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_b263747a2d85f97159c59d8450a8391a": {
+  "case_slug": "fiber-ww_b263747a2d85f97159c59d8450a8391a",
+  "input_domain": "livemode.com",
+  "input_name": "LiveMode",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2024-04-23",
+   "latest_amount": 85000000,
+   "total_raised": 85000000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_b3955a5328eb59a90180b3366ce0559d": {
+  "case_slug": "fiber-ww_b3955a5328eb59a90180b3366ce0559d",
+  "input_domain": "entermind.ai",
+  "input_name": "Entermind.ai",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2024-09-26",
+   "latest_amount": 20000,
+   "total_raised": 20000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_b41fedf62ade6e68447c5c6ac9dd99b8": {
+  "case_slug": "fiber-ww_b41fedf62ade6e68447c5c6ac9dd99b8",
+  "input_domain": "theproteinbrewery.com",
+  "input_name": "The Protein Brewery",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-06-29",
+   "latest_amount": 20500000,
+   "total_raised": 86990000.0,
+   "round_count": 6
+  }
+ },
+ "fiber-ww_b62ffa4f0f4f271a7fee5ea3b3f878b1": {
+  "case_slug": "fiber-ww_b62ffa4f0f4f271a7fee5ea3b3f878b1",
+  "input_domain": "frontierhealth.ai",
+  "input_name": "Frontier Health",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-06-18",
+   "latest_amount": 16000000,
+   "total_raised": 16000000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_b4bc06aaec219f663adb1a8364a5e4b4": {
+  "case_slug": "fiber-ww_b4bc06aaec219f663adb1a8364a5e4b4",
+  "input_domain": "8alpha.ai",
+  "input_name": "8alpha.ai",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-05-29",
+   "latest_amount": 689275,
+   "total_raised": 690000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_b9efb83cb1d2489db632f35ecf6774a6": {
+  "case_slug": "fiber-ww_b9efb83cb1d2489db632f35ecf6774a6",
+  "input_domain": "sensei.tech",
+  "input_name": "Sensei",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2024-10-22",
+   "latest_amount": 16000000,
+   "total_raised": 22500000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_b94ae7cf331abcf096d8d08de54493bb": {
+  "case_slug": "fiber-ww_b94ae7cf331abcf096d8d08de54493bb",
+  "input_domain": "axilhealth.com",
+  "input_name": "Axil Health",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-10-01",
+   "latest_amount": 1500000,
+   "total_raised": 1500000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_b8f3c99396f71c0ca6cf9cec4da6a042": {
+  "case_slug": "fiber-ww_b8f3c99396f71c0ca6cf9cec4da6a042",
+  "input_domain": "triorb.co.jp",
+  "input_name": "TriOrb Inc.",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-08-07",
+   "latest_amount": 2000000,
+   "total_raised": 25130000.0,
+   "round_count": 6
+  }
+ },
+ "fiber-ww_bddd946d63ce634a0dd6f1b70aff472a": {
+  "case_slug": "fiber-ww_bddd946d63ce634a0dd6f1b70aff472a",
+  "input_domain": "noble.xyz",
+  "input_name": "Noble",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2024-11-19",
+   "latest_amount": 15000000,
+   "total_raised": 18300000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_bbf6780087e4bc37fb9b7700d41a7a01": {
+  "case_slug": "fiber-ww_bbf6780087e4bc37fb9b7700d41a7a01",
+  "input_domain": "reffie.me",
+  "input_name": "Reffie",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-11-06",
+   "latest_amount": 3130000,
+   "total_raised": 3130000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_bfc545cde4c2d1ec0be9781406709ddf": {
+  "case_slug": "fiber-ww_bfc545cde4c2d1ec0be9781406709ddf",
+  "input_domain": "caring.co.kr",
+  "input_name": "케어링",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2026-05-01",
+   "latest_amount": null,
+   "total_raised": 56300000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_becfdda3d10ab8a6e40fe0bde8dcc7df": {
+  "case_slug": "fiber-ww_becfdda3d10ab8a6e40fe0bde8dcc7df",
+  "input_domain": "kyron.bio",
+  "input_name": "kyron.bio",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-05-28",
+   "latest_amount": 6200000,
+   "total_raised": 7580000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_bc957e649500fbd466a940d0a9fa4d02": {
+  "case_slug": "fiber-ww_bc957e649500fbd466a940d0a9fa4d02",
+  "input_domain": "js-lianbo.com",
+  "input_name": "江苏联博精密科技有限公司",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2026-01-01",
+   "latest_amount": 13800000,
+   "total_raised": 13800000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_c93c80d43181ab6ec92e251c7f49699c": {
+  "case_slug": "fiber-ww_c93c80d43181ab6ec92e251c7f49699c",
+  "input_domain": "isometric.com",
+  "input_name": "Isometric",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-06-22",
+   "latest_amount": 40000000,
+   "total_raised": 65000000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_c94998628b46fc20912b3ae1c257ac7b": {
+  "case_slug": "fiber-ww_c94998628b46fc20912b3ae1c257ac7b",
+  "input_domain": "bancoplata.mx",
+  "input_name": "Banco Plata",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2026-04-16",
+   "latest_amount": 405000000,
+   "total_raised": 1970000000.0,
+   "round_count": 9
+  }
+ },
+ "fiber-ww_c30ccf263159a8d813b0f3b8d62b2cc6": {
+  "case_slug": "fiber-ww_c30ccf263159a8d813b0f3b8d62b2cc6",
+  "input_domain": "en.roboscience.co",
+  "input_name": "RoboScience",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-05-06",
+   "latest_amount": 140000000,
+   "total_raised": 167900000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_c9c2e21c449c4359477e40b6e6bbaef5": {
+  "case_slug": "fiber-ww_c9c2e21c449c4359477e40b6e6bbaef5",
+  "input_domain": "getgarner.com",
+  "input_name": "Garner Health",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series E",
+   "latest_date": "2026-05-28",
+   "latest_amount": 100000000,
+   "total_raised": 280000000.0,
+   "round_count": 7
+  }
+ },
+ "fiber-ww_c1f394288e3fe9bb164f15c0021f4185": {
+  "case_slug": "fiber-ww_c1f394288e3fe9bb164f15c0021f4185",
+  "input_domain": "toggle.co.jp",
+  "input_name": "トグルホールディングス",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2026-04-30",
+   "latest_amount": 25100000,
+   "total_raised": 41850000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_ca02ad7eb9e6191c48f0568f389fd737": {
+  "case_slug": "fiber-ww_ca02ad7eb9e6191c48f0568f389fd737",
+  "input_domain": "liminal.gg",
+  "input_name": "Liminal Experiences, Inc",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-03-11",
+   "latest_amount": 5800000,
+   "total_raised": 5800000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_ca0aa0c39c60c240a38456a53094758b": {
+  "case_slug": "fiber-ww_ca0aa0c39c60c240a38456a53094758b",
+  "input_domain": "axiym.io",
+  "input_name": "Axiym",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Other",
+   "latest_date": "2026-03-05",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_c9627472c3f52d0334eb2c2151bd1d89": {
+  "case_slug": "fiber-ww_c9627472c3f52d0334eb2c2151bd1d89",
+  "input_domain": "zettastone.com",
+  "input_name": "北京泽石科技有限公司",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2026-04-01",
+   "latest_amount": 27800000,
+   "total_raised": 72700000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_ca237c916d25624cf695b01540c571f4": {
+  "case_slug": "fiber-ww_ca237c916d25624cf695b01540c571f4",
+  "input_domain": "storioenergy.com",
+  "input_name": "Storio Energy",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2024-10-15",
+   "latest_amount": 5440000,
+   "total_raised": 5440000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_ce1eb3129adad92d9d1a44a147363b32": {
+  "case_slug": "fiber-ww_ce1eb3129adad92d9d1a44a147363b32",
+  "input_domain": "kernel.sh",
+  "input_name": "KERNEL",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-10-09",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_d04b87eb3344be304d8736b213085881": {
+  "case_slug": "fiber-ww_d04b87eb3344be304d8736b213085881",
+  "input_domain": "evommune.com",
+  "input_name": "Evommune",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Post-IPO",
+   "latest_date": "2026-02-13",
+   "latest_amount": 125000000,
+   "total_raised": 380500000.0,
+   "round_count": 6
+  }
+ },
+ "fiber-ww_ce5d94776d26f62b5cf6db61e71eeaee": {
+  "case_slug": "fiber-ww_ce5d94776d26f62b5cf6db61e71eeaee",
+  "input_domain": "orebella.com",
+  "input_name": "Orebella",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-05-28",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_ce585cdf9eb6f990d9cea9abef0f1236": {
+  "case_slug": "fiber-ww_ce585cdf9eb6f990d9cea9abef0f1236",
+  "input_domain": "ernestarugs.com",
+  "input_name": "Ernesta Inc.",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-03-11",
+   "latest_amount": 20000000,
+   "total_raised": 45000000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_d27f771b84ef046c24520300c1e59fa3": {
+  "case_slug": "fiber-ww_d27f771b84ef046c24520300c1e59fa3",
+  "input_domain": "treeline.ai",
+  "input_name": "Treeline",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-03-31",
+   "latest_amount": 25000000,
+   "total_raised": 25000000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_d3fad599203ffa688a6e0c69ef3b30b2": {
+  "case_slug": "fiber-ww_d3fad599203ffa688a6e0c69ef3b30b2",
+  "input_domain": "rainbowcrops.com",
+  "input_name": "Rainbow Crops",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-04-29",
+   "latest_amount": 11250000,
+   "total_raised": 18250000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_d3ab9b41f98222ad7b5ff8a822172796": {
+  "case_slug": "fiber-ww_d3ab9b41f98222ad7b5ff8a822172796",
+  "input_domain": "rmsi.com",
+  "input_name": "RMSI",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2025-10-26",
+   "latest_amount": 56000000,
+   "total_raised": 56000000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_d6a323c64438f5de81e7a45e095cf387": {
+  "case_slug": "fiber-ww_d6a323c64438f5de81e7a45e095cf387",
+  "input_domain": "evom.ai",
+  "input_name": "Evom AI",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-09-01",
+   "latest_amount": null,
+   "total_raised": 1000000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_d4b4ca645d77ec194be2d1200f39cffc": {
+  "case_slug": "fiber-ww_d4b4ca645d77ec194be2d1200f39cffc",
+  "input_domain": "reflexivity.com",
+  "input_name": "Reflexivity",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2024-10-28",
+   "latest_amount": 30000000,
+   "total_raised": 45750000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_d7be3a017f8bda3309a89c250a129d87": {
+  "case_slug": "fiber-ww_d7be3a017f8bda3309a89c250a129d87",
+  "input_domain": "getprosper.ai",
+  "input_name": "Prosper AI",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-06-22",
+   "latest_amount": 30000000,
+   "total_raised": 35000000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_d66987f1002c904acbf08dc1a0629eb8": {
+  "case_slug": "fiber-ww_d66987f1002c904acbf08dc1a0629eb8",
+  "input_domain": "impactpool.org",
+  "input_name": "Impactpool",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2024-08-05",
+   "latest_amount": 3940000,
+   "total_raised": 4280000.0,
+   "round_count": 7
+  }
+ },
+ "fiber-ww_d9c2b231e2a3b353c5c70b5df98b22f1": {
+  "case_slug": "fiber-ww_d9c2b231e2a3b353c5c70b5df98b22f1",
+  "input_domain": "comand.ai",
+  "input_name": "Comand AI",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-06-17",
+   "latest_amount": 35200000,
+   "total_raised": 50700000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_d9dfc0307c9720419c3a39b49b70c7e2": {
+  "case_slug": "fiber-ww_d9dfc0307c9720419c3a39b49b70c7e2",
+  "input_domain": "korapower.com",
+  "input_name": "Kora",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-09-01",
+   "latest_amount": 2600000,
+   "total_raised": 2600000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_db1094af0ebb9071cd303c82bba4730f": {
+  "case_slug": "fiber-ww_db1094af0ebb9071cd303c82bba4730f",
+  "input_domain": "polysense.ai",
+  "input_name": "Polysense",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-07-08",
+   "latest_amount": 10700000,
+   "total_raised": 13060000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_dcdfc4b9b53e094e922123326cb5a27b": {
+  "case_slug": "fiber-ww_dcdfc4b9b53e094e922123326cb5a27b",
+  "input_domain": "patensee.com",
+  "input_name": "PatenSee",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-03-14",
+   "latest_amount": 2000000,
+   "total_raised": 2750000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_dbcdb4e7851b9228bafed70570b9801c": {
+  "case_slug": "fiber-ww_dbcdb4e7851b9228bafed70570b9801c",
+  "input_domain": "jelep.com",
+  "input_name": "J-Elephant",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-06-22",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_dbd8d7036097cd4e8edbdb4e8bc35db0": {
+  "case_slug": "fiber-ww_dbd8d7036097cd4e8edbdb4e8bc35db0",
+  "input_domain": "url.retoern.com",
+  "input_name": "toern",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-06-18",
+   "latest_amount": 1160000,
+   "total_raised": 1160000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_ded9466eb38396eb3f6d68ec79a0163a": {
+  "case_slug": "fiber-ww_ded9466eb38396eb3f6d68ec79a0163a",
+  "input_domain": "notfossil.co",
+  "input_name": "NotFossil",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-seed",
+   "latest_date": "2024-07-01",
+   "latest_amount": 250000,
+   "total_raised": 270000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_dfbc12e4632704eb784bd096f9ad0af9": {
+  "case_slug": "fiber-ww_dfbc12e4632704eb784bd096f9ad0af9",
+  "input_domain": "accipiterbio.com",
+  "input_name": "Accipiter Biosciences",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-11-06",
+   "latest_amount": 12700000,
+   "total_raised": 13540000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_e03d28a8f6acf2659822448c310b091d": {
+  "case_slug": "fiber-ww_e03d28a8f6acf2659822448c310b091d",
+  "input_domain": "gnosisfreight.com",
+  "input_name": "Gnosis Freight",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2024-09-23",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_e07e4bcad4a9522dfc929963d147c02d": {
+  "case_slug": "fiber-ww_e07e4bcad4a9522dfc929963d147c02d",
+  "input_domain": "newratek.com",
+  "input_name": "NEWRATEK Inc",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-IPO",
+   "latest_date": "2026-05-21",
+   "latest_amount": 14700000,
+   "total_raised": 16800000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_e004b3cc0bcb0e18a2973a84065f365e": {
+  "case_slug": "fiber-ww_e004b3cc0bcb0e18a2973a84065f365e",
+  "input_domain": "aandkrobotics.com",
+  "input_name": "A&K Robotics",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-04-21",
+   "latest_amount": 5800000,
+   "total_raised": 5800000.0,
+   "round_count": 6
+  }
+ },
+ "fiber-ww_e27dbfb41acfb853e120e2d92c81ad4c": {
+  "case_slug": "fiber-ww_e27dbfb41acfb853e120e2d92c81ad4c",
+  "input_domain": "twolabs.ai",
+  "input_name": "Twolabs (YC P26)",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-Seed",
+   "latest_date": "2026-02-01",
+   "latest_amount": 500000,
+   "total_raised": 500000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_e2dbaf0289f8c36dfb49926ebb4d375e": {
+  "case_slug": "fiber-ww_e2dbaf0289f8c36dfb49926ebb4d375e",
+  "input_domain": "valtrion.com",
+  "input_name": "Valtrion",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-04-20",
+   "latest_amount": 1220000,
+   "total_raised": 1220000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_e5c91705047d3021125eb3a5469a9d2d": {
+  "case_slug": "fiber-ww_e5c91705047d3021125eb3a5469a9d2d",
+  "input_domain": "definity.ai",
+  "input_name": "definity",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-04-01",
+   "latest_amount": 12000000,
+   "total_raised": 16480000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_e49c371822860388d430292c254fbfc4": {
+  "case_slug": "fiber-ww_e49c371822860388d430292c254fbfc4",
+  "input_domain": "mindsmith.ai",
+  "input_name": "Mindsmith",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-11-05",
+   "latest_amount": 4100000,
+   "total_raised": 4650000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_e5e84ace540bbb72e004d0fb3ea74d00": {
+  "case_slug": "fiber-ww_e5e84ace540bbb72e004d0fb3ea74d00",
+  "input_domain": "primogene.bio",
+  "input_name": "Primogene GmbH",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-04-29",
+   "latest_amount": 4790000,
+   "total_raised": 5120000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_e3d8bf95d971f7a441af6f6bf7fbb336": {
+  "case_slug": "fiber-ww_e3d8bf95d971f7a441af6f6bf7fbb336",
+  "input_domain": "aquapulse.co.in",
+  "input_name": "Aquapulse",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-07-01",
+   "latest_amount": 2850000,
+   "total_raised": 8150000.0,
+   "round_count": 4
+  }
+ },
+ "fiber-ww_e60cd3b8d5be484f57e3afc02a9b7607": {
+  "case_slug": "fiber-ww_e60cd3b8d5be484f57e3afc02a9b7607",
+  "input_domain": "kabloie.com",
+  "input_name": "Kabloie",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-seed",
+   "latest_date": "2026-05-15",
+   "latest_amount": 232000,
+   "total_raised": 230000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_e990434cb88dcfc4be254afd1d0e1dac": {
+  "case_slug": "fiber-ww_e990434cb88dcfc4be254afd1d0e1dac",
+  "input_domain": "heliosintel.ai",
+  "input_name": "Helios",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2025-07-11",
+   "latest_amount": 4000000,
+   "total_raised": 4000000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_e7a29a17f7144e9bf52932fc7c6f9f92": {
+  "case_slug": "fiber-ww_e7a29a17f7144e9bf52932fc7c6f9f92",
+  "input_domain": "wipfli.com",
+  "input_name": "Wipfli",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2025-08-01",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_e61a26e3c6ca246550edf693145e41da": {
+  "case_slug": "fiber-ww_e61a26e3c6ca246550edf693145e41da",
+  "input_domain": "cosm.com",
+  "input_name": "Cosm",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2026-06-24",
+   "latest_amount": 100000000,
+   "total_raised": 350000000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_e9de48ef112494a13dad3e528f157366": {
+  "case_slug": "fiber-ww_e9de48ef112494a13dad3e528f157366",
+  "input_domain": "podiumautomation.com",
+  "input_name": "Podium Automation",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-06-15",
+   "latest_amount": 18000000,
+   "total_raised": 18000000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_e9dae5df3131c3f82fafb0231cc274b7": {
+  "case_slug": "fiber-ww_e9dae5df3131c3f82fafb0231cc274b7",
+  "input_domain": "telgea.com",
+  "input_name": "Telgea",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-02-25",
+   "latest_amount": 5000000,
+   "total_raised": 7700000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_eabfd818ff0b6ed086c772b802a701e1": {
+  "case_slug": "fiber-ww_eabfd818ff0b6ed086c772b802a701e1",
+  "input_domain": "elementalmachines.com",
+  "input_name": "Elemental Machines",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-05-27",
+   "latest_amount": 5700000,
+   "total_raised": 49230000.0,
+   "round_count": 8
+  }
+ },
+ "fiber-ww_ed92f798d4e11a001ee9a02025aa9bc9": {
+  "case_slug": "fiber-ww_ed92f798d4e11a001ee9a02025aa9bc9",
+  "input_domain": "spartacommodities.com",
+  "input_name": "Sparta",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2025-02-24",
+   "latest_amount": 42000000,
+   "total_raised": 65540000.00000001,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_ed32309ae8cdcc4dc3d8be571f123700": {
+  "case_slug": "fiber-ww_ed32309ae8cdcc4dc3d8be571f123700",
+  "input_domain": "cagliaricalcio.com",
+  "input_name": "Cagliari Calcio",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Other",
+   "latest_date": "2025-11-21",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_ee895ed0bbc1fa8fbe499c94373694e0": {
+  "case_slug": "fiber-ww_ee895ed0bbc1fa8fbe499c94373694e0",
+  "input_domain": "solosuit.com",
+  "input_name": "Solo",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2024-08-12",
+   "latest_amount": null,
+   "total_raised": 120000.0,
+   "round_count": 6
+  }
+ },
+ "fiber-ww_ed6e65f1c8af187ffd0960a6a3456a6d": {
+  "case_slug": "fiber-ww_ed6e65f1c8af187ffd0960a6a3456a6d",
+  "input_domain": "therinibio.com",
+  "input_name": "Therini Bio, Inc.",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-05-14",
+   "latest_amount": 39000000,
+   "total_raised": 101680000.0,
+   "round_count": 7
+  }
+ },
+ "fiber-ww_efa6e6be96579b586a3a6023af6bda71": {
+  "case_slug": "fiber-ww_efa6e6be96579b586a3a6023af6bda71",
+  "input_domain": "thepave.co",
+  "input_name": "The Pave",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": null,
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_f137c56699462c94a1a3a2a77d6c0a15": {
+  "case_slug": "fiber-ww_f137c56699462c94a1a3a2a77d6c0a15",
+  "input_domain": "alpalifebio.com",
+  "input_name": "AlpalifeBio",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-09-09",
+   "latest_amount": 9820000,
+   "total_raised": 14050000.0,
+   "round_count": 6
+  }
+ },
+ "fiber-ww_f1b797066dcdfdb0e82e63b2d2b09922": {
+  "case_slug": "fiber-ww_f1b797066dcdfdb0e82e63b2d2b09922",
+  "input_domain": "farmdrive.io",
+  "input_name": "farmdrive",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-03-02",
+   "latest_amount": 930000,
+   "total_raised": 2200000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_f2a7f3b5c73d5c941af54ebfb4c64421": {
+  "case_slug": "fiber-ww_f2a7f3b5c73d5c941af54ebfb4c64421",
+  "input_domain": "tekatron.com.tr",
+  "input_name": "TEKATRON",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Other",
+   "latest_date": "2026-05-01",
+   "latest_amount": 16200000,
+   "total_raised": 16200000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_f4b2a52bccfff8f754a894f04b2f4d20": {
+  "case_slug": "fiber-ww_f4b2a52bccfff8f754a894f04b2f4d20",
+  "input_domain": "usemaia.com",
+  "input_name": "Maia",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-06-16",
+   "latest_amount": 1200000,
+   "total_raised": 1200000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_f4cf6a6d4c99edfad35c7884d1029c5f": {
+  "case_slug": "fiber-ww_f4cf6a6d4c99edfad35c7884d1029c5f",
+  "input_domain": "airwallex.com",
+  "input_name": "Airwallex-l",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series H",
+   "latest_date": "2026-06-26",
+   "latest_amount": 320000000,
+   "total_raised": 1703000000.0,
+   "round_count": 10
+  }
+ },
+ "fiber-ww_f46ecf72f649f7d534e26ff4153cf38f": {
+  "case_slug": "fiber-ww_f46ecf72f649f7d534e26ff4153cf38f",
+  "input_domain": "mx3d.com",
+  "input_name": "MX3D",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-05-13",
+   "latest_amount": 7800000,
+   "total_raised": 10890000.0,
+   "round_count": 7
+  }
+ },
+ "fiber-ww_f4976369f7f29db2f929f0ba1d713dc9": {
+  "case_slug": "fiber-ww_f4976369f7f29db2f929f0ba1d713dc9",
+  "input_domain": "monaco.com",
+  "input_name": "Monaco",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-05-12",
+   "latest_amount": 50000000,
+   "total_raised": 85000000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_f607a5fb32199e7c5da4e6cf3b36a793": {
+  "case_slug": "fiber-ww_f607a5fb32199e7c5da4e6cf3b36a793",
+  "input_domain": "tencarva.com",
+  "input_name": "Tencarva Machinery Company",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series Unknown",
+   "latest_date": "2025-05-09",
+   "latest_amount": 3100000,
+   "total_raised": 3530000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_f8c3791d0ba2ad9a351a54899cdc8f93": {
+  "case_slug": "fiber-ww_f8c3791d0ba2ad9a351a54899cdc8f93",
+  "input_domain": "tycho.ai",
+  "input_name": "Tycho.AI",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-10-07",
+   "latest_amount": 10000000,
+   "total_raised": 12000000.0,
+   "round_count": 2
+  }
+ },
+ "fiber-ww_f8466a340841b566efd01693656edb99": {
+  "case_slug": "fiber-ww_f8466a340841b566efd01693656edb99",
+  "input_domain": "patronpoints.com",
+  "input_name": "Patron Points, Inc",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2026-05-27",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_f9d276c0dc924a9d6238bc0ef43d352e": {
+  "case_slug": "fiber-ww_f9d276c0dc924a9d6238bc0ef43d352e",
+  "input_domain": "tok-edge.com",
+  "input_name": "Tok-Edge",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-04-13",
+   "latest_amount": 1500000,
+   "total_raised": 1500000.0,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_fc07bc0bfc29c85a3cab832f55fa1822": {
+  "case_slug": "fiber-ww_fc07bc0bfc29c85a3cab832f55fa1822",
+  "input_domain": "rspd.link",
+  "input_name": "respond.io",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-06-15",
+   "latest_amount": 62500000,
+   "total_raised": 71300000.0,
+   "round_count": 5
+  }
+ },
+ "fiber-ww_faafbd58744e601ba11c222b94e4fd46": {
+  "case_slug": "fiber-ww_faafbd58744e601ba11c222b94e4fd46",
+  "input_domain": "styleai.co.jp",
+  "input_name": "カーボンリンク株式会社",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-06-26",
+   "latest_amount": null,
+   "total_raised": 130000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_f9e3fb606b9636e29d67b823b8cfdf9e": {
+  "case_slug": "fiber-ww_f9e3fb606b9636e29d67b823b8cfdf9e",
+  "input_domain": "meritrestorations.com",
+  "input_name": "Merit Restorations",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2026-06-17",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 1
+  }
+ },
+ "fiber-ww_fd54eafd79a71915014a2c3fcbc154fe": {
+  "case_slug": "fiber-ww_fd54eafd79a71915014a2c3fcbc154fe",
+  "input_domain": "jumbotail.com",
+  "input_name": "Jumbotail",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series D",
+   "latest_date": "2025-06-30",
+   "latest_amount": 120000000,
+   "total_raised": 264010000.0,
+   "round_count": 9
+  }
+ },
+ "fiber-ww_ff6bb66eb5c8e7037a8f423b76de5833": {
+  "case_slug": "fiber-ww_ff6bb66eb5c8e7037a8f423b76de5833",
+  "input_domain": "floqer.com",
+  "input_name": "Floqer",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-seed",
+   "latest_date": "2025-09-01",
+   "latest_amount": 1470000,
+   "total_raised": 1470000.0,
+   "round_count": 3
+  }
+ },
+ "fiber-ww_fd58c989fdc9493016c22abad044d54b": {
+  "case_slug": "fiber-ww_fd58c989fdc9493016c22abad044d54b",
+  "input_domain": "tryprofound.com",
+  "input_name": "Profound",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2026-02-24",
+   "latest_amount": 96000000,
+   "total_raised": 154500000.0,
+   "round_count": 4
+  }
+ },
+ "manual-corgi-series-b1-2026-05-28": {
+  "case_slug": "manual-corgi-series-b1-2026-05-28",
+  "input_domain": "corgi.com",
+  "input_name": "Corgi",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-05-28",
+   "latest_amount": 106000000,
+   "total_raised": 374500000.0,
+   "round_count": 5
+  }
+ },
+ "ww_08bd2ee91f004fc9ff55d3f133c52f3b": {
+  "case_slug": "ww_08bd2ee91f004fc9ff55d3f133c52f3b",
+  "input_domain": "helsing.ai",
+  "input_name": "Helsing",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series E",
+   "latest_date": "2026-07-13",
+   "latest_amount": 1800000000,
+   "total_raised": 1919000000.0,
+   "round_count": 6
+  }
+ },
+ "ww_15ff25b5188222c73e844cf3a0e43be3": {
+  "case_slug": "ww_15ff25b5188222c73e844cf3a0e43be3",
+  "input_domain": "spectrocloud.com",
+  "input_name": "Spectro Cloud",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series D",
+   "latest_date": "2026-07-15",
+   "latest_amount": 100000000,
+   "total_raised": 127500000.0,
+   "round_count": 5
+  }
+ },
+ "ww_20d00167f18f6d37a6388b551d7cd2b5": {
+  "case_slug": "ww_20d00167f18f6d37a6388b551d7cd2b5",
+  "input_domain": "rime.ai",
+  "input_name": "Rime",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-07-15",
+   "latest_amount": 24000000,
+   "total_raised": 29500000.0,
+   "round_count": 2
+  }
+ },
+ "ww_24fea5b9eac59861b8b37287ee55087e": {
+  "case_slug": "ww_24fea5b9eac59861b8b37287ee55087e",
+  "input_domain": "primeintellect.ai",
+  "input_name": "Prime Intellect",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-07-08",
+   "latest_amount": 130000000,
+   "total_raised": 150500000.0,
+   "round_count": 3
+  }
+ },
+ "ww_2a43c4686799e85efb30c0eaafc90114": {
+  "case_slug": "ww_2a43c4686799e85efb30c0eaafc90114",
+  "input_domain": "realkeyper.com",
+  "input_name": "Keyper",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-07-10",
+   "latest_amount": 11000000,
+   "total_raised": 52210000.0,
+   "round_count": 7
+  }
+ },
+ "ww_3986d001ab0c3fc668b42981df0a73c9": {
+  "case_slug": "ww_3986d001ab0c3fc668b42981df0a73c9",
+  "input_domain": "sambanova.ai",
+  "input_name": "SambaNova Systems",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series F",
+   "latest_date": "2026-07-08",
+   "latest_amount": 1000000000,
+   "total_raised": 2482600000.0,
+   "round_count": 7
+  }
+ },
+ "ww_435fc1da4c326adae0d95d053c0b7fca": {
+  "case_slug": "ww_435fc1da4c326adae0d95d053c0b7fca",
+  "input_domain": "emergent.sh",
+  "input_name": "Emergent",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2026-07-15",
+   "latest_amount": 130000000,
+   "total_raised": 230000000.0,
+   "round_count": 5
+  }
+ },
+ "ww_0630943178d9bad6e35a51094751b5aa": {
+  "case_slug": "ww_0630943178d9bad6e35a51094751b5aa",
+  "input_domain": "htgmedical.com",
+  "input_name": "HTG Medical",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Pre-seed",
+   "latest_date": "2026-07-14",
+   "latest_amount": 519000,
+   "total_raised": 1340000.0,
+   "round_count": 4
+  }
+ },
+ "manual-parallel-series-b-2026-04-29": {
+  "case_slug": "manual-parallel-series-b-2026-04-29",
+  "input_domain": "parallel.ai",
+  "input_name": "Parallel Web Systems",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-04-29",
+   "latest_amount": 100000000,
+   "total_raised": 230000000.0,
+   "round_count": 3
+  }
+ },
+ "ww_4d95099930f7d94b4c2b3ed5e4a98846": {
+  "case_slug": "ww_4d95099930f7d94b4c2b3ed5e4a98846",
+  "input_domain": "krakentechnology.com",
+  "input_name": "Kraken Technology Group",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-07-09",
+   "latest_amount": 175000000,
+   "total_raised": 175000000.0,
+   "round_count": 3
+  }
+ },
+ "ww_55e14de42cfd33cc67ecfa296aa19b47": {
+  "case_slug": "ww_55e14de42cfd33cc67ecfa296aa19b47",
+  "input_domain": "raveeoptics.com",
+  "input_name": "Ravee Optics",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-07-06",
+   "latest_amount": 6000000,
+   "total_raised": 6000000.0,
+   "round_count": 2
+  }
+ },
+ "ww_565e9b9e3fc83e37b0e6d6ca79efb32d": {
+  "case_slug": "ww_565e9b9e3fc83e37b0e6d6ca79efb32d",
+  "input_domain": "nekohealth.com",
+  "input_name": "Neko Health",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2026-07-15",
+   "latest_amount": 700000000,
+   "total_raised": 1041920000.0000001,
+   "round_count": 6
+  }
+ },
+ "ww_5bb73d343dcf32fd34b59a8fcbd32d3f": {
+  "case_slug": "ww_5bb73d343dcf32fd34b59a8fcbd32d3f",
+  "input_domain": "pixverse.ai",
+  "input_name": "PixVerse",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2026-07-14",
+   "latest_amount": 139000000,
+   "total_raised": 499000000.0,
+   "round_count": 4
+  }
+ },
+ "ww_48e7333c82b29607d2c6f40657ccfb93": {
+  "case_slug": "ww_48e7333c82b29607d2c6f40657ccfb93",
+  "input_domain": "alchemab.com",
+  "input_name": "Alchemab Therapeutics",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2025-09-09",
+   "latest_amount": 32000000,
+   "total_raised": 116920000.0,
+   "round_count": 8
+  }
+ },
+ "ww_4b64ddaeb6fc4b9fb558981229ac6d4b": {
+  "case_slug": "ww_4b64ddaeb6fc4b9fb558981229ac6d4b",
+  "input_domain": "graceim.ai",
+  "input_name": "Grace Investment Machine",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-07-09",
+   "latest_amount": 20000000,
+   "total_raised": 20000000.0,
+   "round_count": 3
+  }
+ },
+ "ww_6ccc4cb83d08d6ddbc40a3fa21ef88cb": {
+  "case_slug": "ww_6ccc4cb83d08d6ddbc40a3fa21ef88cb",
+  "input_domain": "velocity.xyz",
+  "input_name": "Velocity",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-07-14",
+   "latest_amount": 38000000,
+   "total_raised": 66000000.0,
+   "round_count": 3
+  }
+ },
+ "ww_6e20da781b52ff31c47e76238f9c18d8": {
+  "case_slug": "ww_6e20da781b52ff31c47e76238f9c18d8",
+  "input_domain": "udaan.com",
+  "input_name": "Udaan",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2026-07-14",
+   "latest_amount": 160000000,
+   "total_raised": 2186400000.0,
+   "round_count": 13
+  }
+ },
+ "ww_6ea93095a3e2623f1501854982016f80": {
+  "case_slug": "ww_6ea93095a3e2623f1501854982016f80",
+  "input_domain": "altahq.com",
+  "input_name": "Alta",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-07-08",
+   "latest_amount": 25000000,
+   "total_raised": 32000000.0,
+   "round_count": 2
+  }
+ },
+ "ww_720ce59a9f20e7bfadc85555b161054d": {
+  "case_slug": "ww_720ce59a9f20e7bfadc85555b161054d",
+  "input_domain": "nopan.com",
+  "input_name": "Nopan",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-07-14",
+   "latest_amount": null,
+   "total_raised": null,
+   "round_count": 1
+  }
+ },
+ "ww_5fde04752282c91e0a5a6879b852ed42": {
+  "case_slug": "ww_5fde04752282c91e0a5a6879b852ed42",
+  "input_domain": "gradium.ai",
+  "input_name": "Gradium",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-07-08",
+   "latest_amount": 30000000,
+   "total_raised": 100000000.0,
+   "round_count": 2
+  }
+ },
+ "ww_808cf74cc7173780fd15cb41cf1a9181": {
+  "case_slug": "ww_808cf74cc7173780fd15cb41cf1a9181",
+  "input_domain": "vendelux.com",
+  "input_name": "Vendelux",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-07-08",
+   "latest_amount": 50000000,
+   "total_raised": 66400000.00000001,
+   "round_count": 3
+  }
+ },
+ "ww_9b25cdd815b423c83673ba439f145f81": {
+  "case_slug": "ww_9b25cdd815b423c83673ba439f145f81",
+  "input_domain": "linkerfinance.com",
+  "input_name": "Linker Finance",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-07-14",
+   "latest_amount": 5000000,
+   "total_raised": 8700000.0,
+   "round_count": 4
+  }
+ },
+ "ww_5daf89f459b90aca618ca34a7193f3c9": {
+  "case_slug": "ww_5daf89f459b90aca618ca34a7193f3c9",
+  "input_domain": "instalily.ai",
+  "input_name": "InstaLILY AI",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-07-14",
+   "latest_amount": 60000000,
+   "total_raised": 88000000.0,
+   "round_count": 4
+  }
+ },
+ "ww_76479395f3ac7f1ca4934a3b69da7f2c": {
+  "case_slug": "ww_76479395f3ac7f1ca4934a3b69da7f2c",
+  "input_domain": "favemixes.com",
+  "input_name": "FAVE",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-07-15",
+   "latest_amount": 1000000,
+   "total_raised": 1000000.0,
+   "round_count": 1
+  }
+ },
+ "ww_b566ea04e0d9db7c7df13c7d54b4fd64": {
+  "case_slug": "ww_b566ea04e0d9db7c7df13c7d54b4fd64",
+  "input_domain": "monumental.co",
+  "input_name": "Monumental",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-07-15",
+   "latest_amount": 32000000,
+   "total_raised": 57000000.0,
+   "round_count": 3
+  }
+ },
+ "ww_b567b5bb7ee501f634e9a8d053d1b970": {
+  "case_slug": "ww_b567b5bb7ee501f634e9a8d053d1b970",
+  "input_domain": "tylsemi.ai",
+  "input_name": "TYLsemi",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-07-14",
+   "latest_amount": 43000000,
+   "total_raised": 43000000.0,
+   "round_count": 1
+  }
+ },
+ "ww_bba8720448c43549cd0f9ecf795e14ba": {
+  "case_slug": "ww_bba8720448c43549cd0f9ecf795e14ba",
+  "input_domain": "riskledger.com",
+  "input_name": "Risk Ledger",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-06-18",
+   "latest_amount": 32300000,
+   "total_raised": 43710000.0,
+   "round_count": 7
+  }
+ },
+ "ww_ad6bc51e0fb4ee6b5c962854234445b5": {
+  "case_slug": "ww_ad6bc51e0fb4ee6b5c962854234445b5",
+  "input_domain": "visibuilt.com",
+  "input_name": "Visibuilt",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-07-13",
+   "latest_amount": 3900000,
+   "total_raised": 9150000.0,
+   "round_count": 6
+  }
+ },
+ "ww_b31c0e51eefbd61d1447f14d2260c225": {
+  "case_slug": "ww_b31c0e51eefbd61d1447f14d2260c225",
+  "input_domain": "lumindigital.com",
+  "input_name": "Lumin Digital",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-07-15",
+   "latest_amount": 115000000,
+   "total_raised": 350000000.0,
+   "round_count": 3
+  }
+ },
+ "ww_d851744f89296ce0104c2a132fc83666": {
+  "case_slug": "ww_d851744f89296ce0104c2a132fc83666",
+  "input_domain": "databento.com",
+  "input_name": "Databento",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-07-09",
+   "latest_amount": 97000000,
+   "total_raised": 134550000.0,
+   "round_count": 5
+  }
+ },
+ "ww_d1718277a8ed72d16ab410e11f6cd92e": {
+  "case_slug": "ww_d1718277a8ed72d16ab410e11f6cd92e",
+  "input_domain": "glacislabs.com",
+  "input_name": "Glacis Labs",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-07-15",
+   "latest_amount": 6800000,
+   "total_raised": 8800000.0,
+   "round_count": 2
+  }
+ },
+ "ww_e2b2fd7c351cc6a4c2352ff10e2dd887": {
+  "case_slug": "ww_e2b2fd7c351cc6a4c2352ff10e2dd887",
+  "input_domain": "leocancercare.com",
+  "input_name": "Leo Cancer Care",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series D",
+   "latest_date": "2026-07-08",
+   "latest_amount": 65000000,
+   "total_raised": 130340000.0,
+   "round_count": 4
+  }
+ },
+ "ww_cd78db116daaf16c639a8796d4dae9bf": {
+  "case_slug": "ww_cd78db116daaf16c639a8796d4dae9bf",
+  "input_domain": "mountainseed.com",
+  "input_name": "MountainSeed",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Private Equity",
+   "latest_date": "2026-07-09",
+   "latest_amount": 38000000,
+   "total_raised": 38000000.0,
+   "round_count": 2
+  }
+ },
+ "ww_d8d17e39ecb16737bbf1223762d1f950": {
+  "case_slug": "ww_d8d17e39ecb16737bbf1223762d1f950",
+  "input_domain": "gauntlet.xyz",
+  "input_name": "Gauntlet Networks",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series C",
+   "latest_date": "2026-07-09",
+   "latest_amount": 125000000,
+   "total_raised": 156060000.0,
+   "round_count": 6
+  }
+ },
+ "ww_f7f21360922a153f4a22ca1ef2d44246": {
+  "case_slug": "ww_f7f21360922a153f4a22ca1ef2d44246",
+  "input_domain": "project-q.ai",
+  "input_name": "Project Q",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-07-14",
+   "latest_amount": 17200000,
+   "total_raised": 25400000.0,
+   "round_count": 2
+  }
+ },
+ "ww_fab9bb4aa335f005731062f3e006908c": {
+  "case_slug": "ww_fab9bb4aa335f005731062f3e006908c",
+  "input_domain": "ollama.com",
+  "input_name": "Ollama",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series B",
+   "latest_date": "2026-07-09",
+   "latest_amount": 65000000,
+   "total_raised": 80000000.0,
+   "round_count": 3
+  }
+ },
+ "ww_ed211940ace03819fc9d3bf950c0aef6": {
+  "case_slug": "ww_ed211940ace03819fc9d3bf950c0aef6",
+  "input_domain": "cyclops.io",
+  "input_name": "Cyclops",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Series A",
+   "latest_date": "2026-07-15",
+   "latest_amount": 20000000,
+   "total_raised": 28000000.0,
+   "round_count": 3
+  }
+ },
+ "ww_e7effef606a3ec4ba831e8567110578c": {
+  "case_slug": "ww_e7effef606a3ec4ba831e8567110578c",
+  "input_domain": "sodex-innovations.com",
+  "input_name": "Sodex Innovations",
+  "status": "ok",
+  "normalized": {
+   "latest_stage": "Seed",
+   "latest_date": "2026-07-13",
+   "latest_amount": 4580000,
+   "total_raised": 4580000.0,
+   "round_count": 5
+  }
+ }
+}

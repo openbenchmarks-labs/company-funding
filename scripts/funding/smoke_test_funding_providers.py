@@ -136,8 +136,44 @@ def fundable(domain: str) -> dict[str, Any]:
     )
 
 
+PVALYOU_BASE = os.environ.get("PVALYOU_API_BASE", "https://company-file-api-559961100092.europe-west1.run.app/v1")
+PVALYOU_POLL_SECONDS = 10
+
+
+def pvalyou(domain: str) -> dict[str, Any]:
+    """Pvalyou reads the company live when it is not on file, so the first call may return a job
+    and the record arrives on a later poll. The envelope is the same as every other provider's:
+    the last HTTP status, the total latency including the wait, and the delivered record as the
+    response body. PVALYOU_MAX_WAIT_S bounds the wait (default 900 s)."""
+    headers = {"X-API-Key": os.environ["PVALYOU_API_KEY"], "Accept": "application/json",
+               "Content-Type": "application/json", "X-Platform": "openbenchmarks"}
+    max_wait = float(os.environ.get("PVALYOU_MAX_WAIT_S", "900"))
+    started = time.perf_counter()
+    first = request("POST", f"{PVALYOU_BASE}/company", headers=headers,
+                    json={"company": domain, "tier": "basic"})
+    current = first
+    body = current.get("response") if isinstance(current.get("response"), dict) else {}
+    job_id = body.get("job_id")
+    while current.get("http_status") == 200 and not body.get("record") and job_id:
+        if time.perf_counter() - started > max_wait:
+            body = dict(body, timeout=True)
+            break
+        if body.get("job_status") == "failed":
+            break
+        time.sleep(PVALYOU_POLL_SECONDS)
+        current = request("GET", f"{PVALYOU_BASE}/company/jobs/{job_id}", headers=headers)
+        body = current.get("response") if isinstance(current.get("response"), dict) else {}
+    return {
+        "http_status": current.get("http_status"),
+        "latency_ms": round((time.perf_counter() - started) * 1000),
+        "response": body,
+        "rate_limit": current.get("rate_limit") or {},
+    }
+
+
 PROVIDERS: dict[str, tuple[tuple[str, ...], Callable[[str], dict[str, Any]]]] = {
     "fiber": (("FIBER_API_KEY",), fiber),
+    "pvalyou": (("PVALYOU_API_KEY",), pvalyou),
     "predictleads": (("PREDICT_LEADS_API_KEY", "PREDICT_LEADS_API_TOKEN"), predictleads),
     "apollo": (("APOLLO_API_KEY",), apollo),
     "people-data-labs": (("PEOPLE_DATA_LABS_API_KEY",), people_data_labs),

@@ -156,6 +156,12 @@ request time.
 - Seltz (Answer API, companies scope)
 - Seltz (Answer API, news scope)
 
+**Live-read company records** build the company's record at request time from
+its own website, its LinkedIn page, the registries and the open web, and answer
+from that record on later calls.
+
+- Pvalyou (company record API; self-run results in `results/pvalyou/`, not yet an arm on the board)
+
 **GTM data providers** return a stored record from a maintained database.
 
 - Apollo
