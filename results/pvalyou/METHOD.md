@@ -40,15 +40,15 @@ on the same answers differed by one verdict, so the number below is one run's, n
 
 | metric | value |
 |---|---|
-| stage correct yield | 94.33% (283 correct of 300) |
+| stage correct yield | 95.00% (285 correct of 300) |
 | stage fill rate | 99.67% (299 of 300 returned a stage) |
 | resolution | 100% (300 of 300 companies) |
 
-Decision basis of the correct answers: equivalent stage 120, same series letter 143, exact date
+Decision basis of the correct answers: equivalent stage 122, same series letter 143, exact date
 18, exact amount 1, blank ground truth 1.
 
 ## Where we disagree with the reference
 
-Seventeen answers. Nine are the reference's vocabulary or its date (a "Seed Plus", a "Series A/B",
-a round we hold that is newer than the reference's, a letter the provider itself states); eight
+Fifteen answers. Eight are the reference's vocabulary or its date (a "Seed Plus", a "Series A/B",
+a round we hold that is newer than the reference's, a letter the provider itself states); seven
 are ours, and each is listed in `reference_notes.md` with what we hold and why.

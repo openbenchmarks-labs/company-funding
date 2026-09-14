@@ -1,6 +1,6 @@
 # Where our answer and the reference disagree, with what we hold
 
-Seventeen of 300. Read on 2026-09-14. Two groups: the ones we think are the reference's, and the
+Fifteen of 300. Read on 2026-09-14. Two groups: the ones we think are the reference's, and the
 ones that are ours.
 
 ## The reference's vocabulary, its date, or a round we hold that is newer
@@ -26,6 +26,5 @@ ones that are ours.
 | Beijing Zeshi Technology | Pre-IPO, 2026-05-29 | Series C, 2026-04-01 | Same as ZYT. |
 | ZEROG Aircraft Industry | Series B, 2026-06-17 | Series Unknown, 2026-06-17 | The company's site calls it a new round of about RMB 500M and the two newsroom posts we read do not name the letter; the reference does. |
 | farmdrive | pre_seed, 2025-11-13 | Seed, 2026-03-02 | We hold the pre-seed from the company's own newsroom post, and a later "Seed" row from a local news site and an aggregator that no first-party source confirms; the weaker row should not outrank the newsroom. |
-| TEKATRON | corporate equity, 2026-05-07 | Other, 2026-05-01 | Our batch deleted the OYAK investment as an intention (MoU, board approval, no closing reported); the reference counts it. |
-| American Rebel Beverage | equity_crowdfunding, 2026-06-27 | Post-IPO, undated | The company runs at our basic scope (a traditional business), so the funding batch that would read its Form C never runs for it. A scope policy, not a reading error. |
-| Coast To Coast Logistics, Tencarva, Cagliari Calcio, IADYS, Fixposition, Wild Frontiers | | | Fixed today (a stake buyout read as private equity, EDGAR Form D, the company's own newsroom, a provider label no longer read as a letter) and no longer on this list. |
+| TEKATRON | corporate equity, 2026-05-07 | Other, 2026-08-24 | We hold OYAK's EUR 15M investment from its board approval of 24 Aug 2026 with closing pending; the reference dates it at the May announcement and names the corporate instrument. The type reads Corporate Round on the next refresh (the investor's stated type now names it). |
+| Coast To Coast Logistics, Tencarva, Cagliari Calcio, IADYS, Fixposition, Wild Frontiers, American Rebel Beverage | | | Fixed today (a stake buyout read as private equity, EDGAR Form D and Form C, the company's own newsroom, a provider label no longer read as a letter, the funding batch let through for a traditional business with a raise on record) and no longer on this list. |

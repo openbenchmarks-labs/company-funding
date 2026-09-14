@@ -473,11 +473,11 @@
   "input_name": "American Rebel Beverage",
   "status": "ok",
   "normalized": {
-   "latest_stage": "Post-IPO",
-   "latest_date": null,
+   "latest_stage": "Equity Crowdfunding",
+   "latest_date": "2026-05-14",
    "latest_amount": null,
    "total_raised": null,
-   "round_count": 1
+   "round_count": 2
   }
  },
  "fiber-ww_294df5432a946031c7c7de5a983d4f6c": {
@@ -1048,7 +1048,7 @@
    "latest_stage": "Private Equity",
    "latest_date": "2024-11-19",
    "latest_amount": 50000000,
-   "total_raised": 665100000.0,
+   "total_raised": 600100000.0,
    "round_count": 9
   }
  },
@@ -3204,7 +3204,7 @@
   "status": "ok",
   "normalized": {
    "latest_stage": "Other",
-   "latest_date": "2026-05-01",
+   "latest_date": "2026-08-24",
    "latest_amount": 16200000,
    "total_raised": 16200000.0,
    "round_count": 1
