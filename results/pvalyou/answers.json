@@ -562,13 +562,13 @@
   "case_slug": "fiber-ww_2c7ea1c87a922fa3945d3ae042ee4f35",
   "input_domain": "coasttocoastlogistics.com",
   "input_name": "Coast To Coast Logistics",
-  "status": "ok_no_rounds",
+  "status": "ok",
   "normalized": {
-   "latest_stage": null,
-   "latest_date": null,
+   "latest_stage": "Private Equity",
+   "latest_date": "2025-02-11",
    "latest_amount": null,
    "total_raised": null,
-   "round_count": null
+   "round_count": 1
   }
  },
  "fiber-ww_3168b67fc702b8f1313ed89492966752": {
@@ -1048,7 +1048,7 @@
    "latest_stage": "Private Equity",
    "latest_date": "2024-11-19",
    "latest_amount": 50000000,
-   "total_raised": 600100000.0,
+   "total_raised": 665100000.0,
    "round_count": 9
   }
  },
@@ -1088,7 +1088,7 @@
    "latest_date": "2025-11-01",
    "latest_amount": 500000000,
    "total_raised": 824200000.0,
-   "round_count": 4
+   "round_count": 5
   }
  },
  "fiber-ww_539d130b2e09bb72f8f55be3fed45e88": {
@@ -1147,7 +1147,7 @@
   "case_slug": "fiber-ww_571c0ba47c285cac1d8f76bc66162a3f",
   "input_domain": "cardiffdragons.com",
   "input_name": "LEXISNEXIS DRAGONS Official Page",
-  "status": "ok_no_rounds",
+  "status": "ok",
   "normalized": {
    "latest_stage": null,
    "latest_date": null,
@@ -1396,7 +1396,7 @@
   "input_name": "IADYS",
   "status": "ok",
   "normalized": {
-   "latest_stage": "Series C",
+   "latest_stage": "Series A",
    "latest_date": "2024-11-12",
    "latest_amount": 11000000,
    "total_raised": 12710000.0,
@@ -1800,10 +1800,10 @@
   "status": "ok",
   "normalized": {
    "latest_stage": "Corporate Round",
-   "latest_date": "2023-01-01",
+   "latest_date": "2022-12-21",
    "latest_amount": null,
    "total_raised": 10380000.0,
-   "round_count": 8
+   "round_count": 9
   }
  },
  "fiber-ww_8bb7a97d4df49f45a6de39fa4ae7fa6e": {
@@ -2124,7 +2124,7 @@
   "input_name": "MOPP Foods",
   "status": "ok",
   "normalized": {
-   "latest_stage": "Corporate Round",
+   "latest_stage": "Private Equity",
    "latest_date": "2025-03-28",
    "latest_amount": null,
    "total_raised": 190000.0,
@@ -3125,7 +3125,7 @@
   "input_name": "Cagliari Calcio",
   "status": "ok",
   "normalized": {
-   "latest_stage": "Other",
+   "latest_stage": "Private Equity",
    "latest_date": "2025-11-21",
    "latest_amount": null,
    "total_raised": null,
@@ -3269,10 +3269,10 @@
   "status": "ok",
   "normalized": {
    "latest_stage": "Series Unknown",
-   "latest_date": "2025-05-09",
-   "latest_amount": 3100000,
-   "total_raised": 3530000.0,
-   "round_count": 3
+   "latest_date": "2026-05-18",
+   "latest_amount": 971344,
+   "total_raised": 9280000.0,
+   "round_count": 5
   }
  },
  "fiber-ww_f8c3791d0ba2ad9a351a54899cdc8f93": {
