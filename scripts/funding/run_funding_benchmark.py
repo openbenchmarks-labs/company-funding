@@ -193,6 +193,20 @@ def normalize(provider: str, raw: dict[str, Any]) -> dict[str, Any]:
         # behind dated ones, and among equal dates the later ladder stage is the latest.
         funding = ((response.get("record") or {}).get("funding") or {})
         rounds = [row for row in funding.get("rounds") or [] if isinstance(row, dict)]
+        # a buyout by a private-equity firm is filed in the record as an M&A row with a
+        # private-equity investor; as a financing stage it is Private Equity
+        def _pe_buyout(row: dict[str, Any]) -> bool:
+            return (str(row.get("round_type") or "").strip().lower() == "m&a"
+                    and any(str((i or {}).get("type") or "").strip().lower() == "private equity"
+                            for i in (row.get("investors") or []) if isinstance(i, dict)))
+        rounds = [dict(row, round_type="Private Equity") if _pe_buyout(row) else row for row in rounds]
+        # most buyouts sit under the record's acquisitions: a majority or minority stake bought
+        # by an investor is a private-equity financing, a full-entity acquisition is not a stage
+        for acq in (response.get("record") or {}).get("acquisitions") or []:
+            if isinstance(acq, dict) and "stake" in str(acq.get("acquisition_type") or "").lower():
+                rounds.append({"round_type": "Private Equity",
+                               "round_date": acq.get("announcement_date") or acq.get("announced_date"),
+                               "round_amount_m_usd": acq.get("acquisition_amount_m_usd")})
         skip = ("debt", "loan", "secondary", "grant", "accelerator", "non-equity", "fund close",
                 "superseded", "m&a", "ico")
         equity = [row for row in rounds if not any(k in str(row.get("round_type") or "").lower() for k in skip)] or rounds
