@@ -86,11 +86,14 @@ PYTHONPATH=scripts .venv/bin/python scripts/funding/run_structured_web_research.
 question in natural language: `exa` and `exa-instant` (Search API at two search
 types), `exa-agent` (Agent API), `parallel` (Task API) and
 `parallel-responses-medium` (Responses API), `seltz-companies` and `seltz-news`
-(Answer API at two search scopes), and `firecrawl` and `firecrawl-spark-2`
-(Agent API with Spark 1 Mini and Spark 2 respectively). All of them send the
-same instruction and the same output schema, so the endpoint or its one varied
-parameter is the only difference between arms; the contract tests beside the
-runner assert that.
+(Answer API at two search scopes), `firecrawl` and `firecrawl-spark-2`
+(Agent API with Spark 1 Mini and Spark 2 respectively), and `extruct`
+(Extruct Deep Research, `POST /v1/deep_research_tasks`, not AI Tables). All of
+them send the same instruction and the same output schema, so the endpoint or
+its one varied parameter is the only difference between arms; the contract
+tests beside the runner assert that. Extruct rejects JSON Schema null unions,
+so that adapter omits unknown fields and maps them to null after the task
+returns.
 
 Exa Agent is priced per request by effort and the runner pins it. Leaving the
 API default of `effort=auto` meters up to $5 per run, which is roughly fifty
