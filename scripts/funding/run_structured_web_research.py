@@ -31,7 +31,7 @@ from urllib.request import Request, urlopen
 
 
 ROOT = Path(__file__).resolve().parents[2]
-INPUT = ROOT / "data" / "funding" / "company-funding-benchmark-inputs-v1.csv"
+INPUT = ROOT / "data" / "funding" / "company-funding-inputs-v1.csv"
 RAW_ROOT = ROOT / "data" / "funding" / "provider-runs-v2" / "raw"
 OUTPUT_SCHEMA = {
     "type": "object",
@@ -438,6 +438,11 @@ def exa_agent(case: dict[str, str], effort: str = EXA_AGENT_EFFORT) -> tuple[dic
     }
 
 
+try:
+    from funding.extruct_deep_research import extruct as extruct_deep_research
+except ImportError:
+    from extruct_deep_research import extruct as extruct_deep_research
+
 PROVIDERS = {
     "exa": exa,
     "exa-instant": partial(exa, search_type="instant"),
@@ -448,6 +453,7 @@ PROVIDERS = {
     "firecrawl-spark-2": partial(firecrawl, model=FIRECRAWL_SPARK_2_MODEL),
     "seltz-companies": partial(seltz, scope="companies"),
     "seltz-news": partial(seltz, scope="news"),
+    "extruct": extruct_deep_research,
 }
 REQUIRED_ENV = {
     "exa": "EXA_API_KEY", "exa-instant": "EXA_API_KEY", "exa-agent": "EXA_API_KEY",
@@ -455,6 +461,7 @@ REQUIRED_ENV = {
     "parallel-responses-medium": "PARALLEL_API_KEY",
     "firecrawl": "FIRECRAWL_API_KEY", "firecrawl-spark-2": "FIRECRAWL_API_KEY",
     "seltz-companies": "SELTZ_API_KEY", "seltz-news": "SELTZ_API_KEY",
+    "extruct": "EXTRUCT_API_TOKEN",
 }
 DEFAULT_CONCURRENCY = {
     "exa": 12, "exa-instant": 12, "parallel": 8, "parallel-responses-medium": 8,
@@ -462,6 +469,7 @@ DEFAULT_CONCURRENCY = {
     # test shows what each vendor tolerates.
     "exa-agent": 4, "firecrawl": 4, "firecrawl-spark-2": 4,
     "seltz-companies": 6, "seltz-news": 6,
+    "extruct": 3,
 }
 
 
