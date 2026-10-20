@@ -136,6 +136,28 @@ def fundable(domain: str) -> dict[str, Any]:
     )
 
 
+PROVA_URL = "https://api.provaapi.com/api/v1/funding-stages"
+PROVA_POLL_SECONDS = 3
+PROVA_MAX_POLLS = 20
+
+
+def prova(domain: str) -> dict[str, Any]:
+    """Prova answers a company it has not looked up yet after ~5 s, else with 202 "pending": the same request is
+    asked again every few seconds (refresh "auto" reads the finished answer) for up to about a minute. The latency
+    is the time to the final answer."""
+    headers = {"Authorization": f"Bearer {os.environ['PROVA_API_KEY']}", "Content-Type": "application/json"}
+    started = time.perf_counter()
+    result = request("POST", PROVA_URL, headers=headers, json={"domain": domain})
+    polls = 0
+    while result["http_status"] == 202 and polls < PROVA_MAX_POLLS:
+        time.sleep(PROVA_POLL_SECONDS)
+        polls += 1
+        result = request("POST", PROVA_URL, headers=headers, json={"domain": domain, "refresh": "auto"})
+    result["latency_ms"] = round((time.perf_counter() - started) * 1000)
+    result["polls"] = polls
+    return result
+
+
 PROVIDERS: dict[str, tuple[tuple[str, ...], Callable[[str], dict[str, Any]]]] = {
     "fiber": (("FIBER_API_KEY",), fiber),
     "predictleads": (("PREDICT_LEADS_API_KEY", "PREDICT_LEADS_API_TOKEN"), predictleads),
@@ -145,6 +167,7 @@ PROVIDERS: dict[str, tuple[tuple[str, ...], Callable[[str], dict[str, Any]]]] = 
     "explorium": (("EXPLORIUM_API_KEY",), explorium),
     "company-enrich": (("COMPANY_ENRICH_API_KEY",), company_enrich),
     "fundable": (("FUNDABLE_API_KEY",), fundable),
+    "prova": (("PROVA_API_KEY",), prova),
 }
 
 

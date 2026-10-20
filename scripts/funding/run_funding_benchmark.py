@@ -119,6 +119,11 @@ def status_for(provider: str, raw: dict[str, Any]) -> tuple[str, str | None]:
         return "not_found", "no funding enrichment"
     if provider == "company-enrich" and not response.get("id"):
         return "not_found", "no company"
+    if provider == "prova":
+        if code == 202 or response.get("status") == "pending":
+            return "error", "answer still pending"
+        if response.get("status") == "not_found":
+            return "not_found", response.get("message") or "no funding found"
     if provider == "fundable" and not ((response.get("data") or {}).get("company")):
         error = response.get("error")
         if isinstance(error, dict):
@@ -193,6 +198,17 @@ def normalize(provider: str, raw: dict[str, Any]) -> dict[str, Any]:
             "latest_amount": latest_deal.get("total_round_raised"),
             "total_raised": company.get("total_raised"),
             "round_count": company.get("num_funding_rounds"),
+        }
+    if provider == "prova":
+        # latest_stage: the stage the company is at (latest_round's, else the newest stage named in the 18 months
+        # before it); the date and amount are the latest round's
+        latest = response.get("latest_round") or {}
+        return {
+            "latest_stage": response.get("latest_stage") or latest.get("stage"),
+            "latest_date": latest.get("date"),
+            "latest_amount": latest.get("amount"),
+            "total_raised": None,
+            "round_count": len(response.get("rounds") or []),
         }
     raise KeyError(provider)
 
